@@ -1,0 +1,937 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: black;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+/*Css Luis Felipe index*/
+.container__header {
+    width: 100%;
+    display: flex;
+    padding: 0% 12%;
+
+
+}
+
+.container__logo {
+    align-items: left;
+    width: 20%;
+}
+
+.logo__Star {
+    padding-right: 20px;
+
+}
+
+.center__header {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.menus {
+
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+    width: 80%;
+    text-overflow: clip;
+
+}
+
+.links__header {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bolder 800px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.links__header:hover {
+    color: yellow;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12%;
+    justify-content: space-between;
+
+}
+
+.paragrafo__index {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.container__index__texto__titulo {
+    gap: 30px;
+    width: 50%;
+    height: 50%;
+
+}
+
+.paragrafo__index__titulo {
+
+    color: white;
+    font-weight: bolder 900px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    line-height: 48px;
+    font-style: normal;
+    margin-bottom: 15px;
+
+
+}
+
+.paragrafo__index__texto {
+
+    color: white;
+    font-weight: 300px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 29px;
+}
+.contato {
+    display: flex;    
+   justify-content: space-between;   
+    padding-bottom: 50px;
+}
+
+
+.container__imagem__contato{
+    width: 50%;
+    
+ 
+ 
+}
+
+
+.Contato__imagem {
+    width: 100%;
+
+}
+
+.container__form{
+
+}
+
+.form__texto {
+    justify-content: space-around;
+    color: white;
+
+}
+
+-------------
+/* Final CSS Luis Felipe*/
+-------------
+/*inicio css Rebelde*/
+
+
+.container__02{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    }
+
+.container__02__apresentacao {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+   
+
+}
+.container__foto__02{
+    width: 50%;
+    padding: 2% 3% ;
+}
+.foto_rebelde_02{
+   
+}
+
+
+.container__texto {
+    width: 50%;
+    color: white;
+    font-weight: 300px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 29px;
+
+
+
+}
+
+.paragrafo__02__titulo {
+
+    color: white;
+    font-weight: bolder 900px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    line-height: 48px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+
+
+.paragrafo__02__texto {
+    color: #FFFFFF;
+}
+
+
+/*Final CSS Rebelde*/
+
+
+
+
+
+
+
+
+/*Início CSS Sith */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 36px;
+    width: 107px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu a:hover {
+    color: #E2CD0E;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
+.paragrafo_1_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 800px;
+}
+
+.paragrafo_2_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 800px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.imagem_sith1 {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.imagem_sith2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
+}
+
+/*Final CSS Sith*/
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 36px;
+    width: 107px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu a:hover {
+    color: #E2CD0E;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
+.paragrafo_1_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 684px;
+}
+
+.paragrafo_2_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 690px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.logo_mando {
+    width: 462px;
+    height: 381px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.Logo_mando_2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
+}
+
+
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 36px;
+    width: 107px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu a:hover {
+    color: #E2CD0E;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
+.paragrafo_1_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 684px;
+}
+
+.paragrafo_2_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 690px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.logo_mando {
+    width: 462px;
+    height: 381px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.Logo_mando_2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
+}
+/*Css Luis Felipe index*/
+
+.logo__Star{
+
+}
+    
+.center__header{
+    display: flex;     
+    justify-content: center;
+    gap: 40px;
+    
+}
+.menus{
+display: flex;
+
+}
+.links__header{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bolder 800px;    
+    font-size: 40px;
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+    padding: 40px 25px;
+}
+.links__header:hover{
+    color: yellow;
+}
+
+.paragrafo__index{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+   gap: 40px;
+}
+
+.paragrafo__index__texto__titulo{
+    gap: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+.paragrafo__index__titulo{
+
+color: white;
+font-weight: bolder 900px;    
+font-size: 40px;
+font-family:'Inter', sans-serif;
+text-transform: uppercase;
+line-height: 48px;
+font-style: normal;
+margin-bottom: 5px;
+
+
+}
+
+.paragrafo__index__texto{
+   
+    color: white;
+    font-weight:300px;    
+    font-size: 24px;
+    font-family:'Inter', sans-serif;
+    line-height: 29px;  
+}  
+
+.paragrafo__index__imagem{
+ 
+}
+
+.contato{
+display: flex;
+justify-content: center;
+gap: 70px;
+
+
+}
+
+.Contato__imagem{
+    padding-left: 40px;
+width: 50%;
+}
+
+.contato__texto{
+    margin-top: 200px;
+    color: white;
+}
+
+-------------/* Final CSS Luis Felipe*/
+-------------/*inicio css Rebelde*/
+
+.paragrafo02{
+    display: flex; 
+    color: white;    
+    padding: 10%;
+    justify-content: center; 
+
+}
+
+.paragrafo__02__titulo{
+   width: 50%;
+
+
+}
+
+
+
+.paragrafo__02__texto{
+
+
+}
+.foto_rebelde_02{
+    
+}
+    
+ 
+   
+
+
+
+/*Final CSS Rebelde*/
+
+
+/*Início CSS Sith*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 36px;
+    width: 107px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu a:hover {
+    color: #E2CD0E;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
+.paragrafo_1_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 800px;
+}
+
+.paragrafo_2_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 800px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.imagem_sith1 {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.imagem_sith2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
+}
+
+/*Final CSS Sith*/
+
+
+  .menu {
+      list-style: none;
+      padding: 0;
+      display: inline-block;
+      position: relative;
+      font-size: 40px;
+      top: 57px;
+
+  }
+
+  .menu a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 36px;
+      width: 107px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 48px;
+      font-family: 'Inter', sans-serif;
+  }
+
+  .menu a:hover {
+      color: #E2CD0E;
+  }
+
+  .center {
+      display: flex;
+  }
+
+  .paragrafo_1 {
+      color: aliceblue;
+  }
+
+  .paragrafo_1_titulo {
+      font-weight: bold;
+      font-size: 40px;
+      position: absolute;
+      left: 95px;
+      top: 168px;
+  }
+
+  .paragrafo_1_texto {
+      font-size: 24px;
+      width: 695px;
+      height: 237px;
+      position: absolute;
+      left: 95px;
+      top: 237px;
+
+  }
+
+  .paragrafo_2 {
+      color: aliceblue;
+  }
+
+  .paragrafo_2_titulo {
+      font-weight: bold;
+      font-size: 40px;
+      position: absolute;
+      top: 632px;
+      left: 684px;
+  }
+
+  .paragrafo_2_texto {
+      font-size: 24px;
+      width: 695px;
+      height: 328px;
+      position: absolute;
+      top: 715px;
+      left: 690px;
+  }
+
+  .logo_starwars {
+      width: 190px;
+      height: 117px;
+  }
+
+  .logo_mando {
+      width: 462px;
+      height: 381px;
+      position: absolute;
+      left: 95px;
+      top: 614px;
+  }
+
+  .Logo_mando_2 {
+      width: 462px;
+      height: 399px;
+      position: absolute;
+      left: 916px;
+      top: 166px;
+  }
+
+
+
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 57px;
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 36px;
+    width: 107px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu a:hover {
+    color: #E2CD0E;
+}
+
+.center {
+    display: flex;
+}
+
+.paragrafo_1 {
+    color: aliceblue;
+}
+
+.paragrafo_1_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 95px;
+    top: 168px;
+}
+
+.paragrafo_1_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 237px;
+    position: absolute;
+    left: 95px;
+    top: 237px;
+
+}
+
+.paragrafo_2 {
+    color: aliceblue;
+}
+
+.paragrafo_2_titulo {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 632px;
+    left: 684px;
+}
+
+.paragrafo_2_texto {
+    font-size: 24px;
+    width: 695px;
+    height: 328px;
+    position: absolute;
+    top: 715px;
+    left: 690px;
+}
+
+.logo_starwars {
+    width: 190px;
+    height: 117px;
+}
+
+.logo_mando {
+    width: 462px;
+    height: 381px;
+    position: absolute;
+    left: 95px;
+    top: 614px;
+}
+
+.Logo_mando_2 {
+    width: 462px;
+    height: 399px;
+    position: absolute;
+    left: 916px;
+    top: 166px;
+}
