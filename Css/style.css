@@ -212,31 +212,89 @@
 
 /*Final CSS Rebelde*/
 
-
-
-
-
-
-
+---------------------
 
 /*Início CSS Sith */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#conteudoTotal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "cabeçalho cabeçalho cabeçalho cabeçalho cabeçalho"
+    "navegação conteudoTexto conteudoTexto imagemPrincipal conteudoLateral"
+    "navegação conteudoTexto conteudoTexto imagemPrincipal conteudoLateral"
+    "navegação conteudoTexto conteudoTexto imagemPrincipal conteudoLateral"
+    "rodape rodape rodape rodape rodape"
+    "rodape rodape rodape rodape rodape"
+    "rodape rodape rodape rodape rodape"
+    "rodape rodape rodape rodape rodape"
+    "rodape rodape rodape rodape rodape";
+    grid-gap: 10px;
+}
+
+header {
+    grid-area: cabeçalho;
     background-color: black;
 }
 
+nav {
+    grid-area: navegação;
+    background-color: black;
+}
+
+/*nav #hamburguer {
+    grid-area: hamburguer;
+    background-color: #1a1a1a;
+}*/
+
+div #conteudoTexto {
+    grid-area: conteudoTexto;
+    background-color: black;
+}
+
+div #imagemPrincipal {
+    grid-area: imagemPrincipal;
+    background-color: black;
+}
+
+aside {
+    grid-area: conteudoLateral;
+    background-color: black;
+}
+
+footer {
+    grid-area: rodape;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+aside {
+    color: white;
+}
+
+.logo_starwars {
+    width: 450px;
+    height: 250px;
+    padding: 50px;
+    margin:auto;
+}
 
 .menu {
     list-style: none;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    font-size: 40px;
-    top: 57px;
-
+    padding: 50px;
+    margin:auto;
+    display:inline;
+    font-size: 80px;
+    text-align: center;
 }
 
 .menu a {
@@ -250,6 +308,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 .menu a:hover {
     color: #E2CD0E;
 }
@@ -262,22 +321,64 @@
     color: aliceblue;
 }
 
+nav a{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    line-height: 5;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.navegação a:hover {
+    color: rgb(209, 3, 3);
+}
+
+aside a{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    line-height: 5;
+}
+
+aside h1{
+    font-weight: bold;
+    color: #E2CD0E;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+aside ul li {
+    list-style-type: none;
+}
+
+.conteudoLateral a:hover {
+    color: rgb(209, 3, 3);
+}
+
 .paragrafo_1_titulo {
     font-weight: bold;
-    font-size: 40px;
-    position: absolute;
+    font-size: 60px;
     left: 95px;
     top: 168px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 .paragrafo_1_texto {
-    font-size: 24px;
-    width: 695px;
-    height: 237px;
-    position: absolute;
+    font-size: 30px;
     left: 95px;
     top: 237px;
-
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 .paragrafo_2 {
@@ -286,30 +387,29 @@
 
 .paragrafo_2_titulo {
     font-weight: bold;
-    font-size: 40px;
-    position: absolute;
+    font-size: 60px;
     top: 632px;
     left: 800px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
 .paragrafo_2_texto {
-    font-size: 24px;
-    width: 695px;
-    height: 328px;
-    position: absolute;
-    top: 715px;
-    left: 800px;
+    font-size: 30px;
+    left: 95px;
+    top: 237px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
 }
 
-.logo_starwars {
-    width: 190px;
-    height: 117px;
+.imagemCentro {
+    width: 1190px;
+    height: 1100px;
 }
 
 .imagem_sith1 {
     width: 600px;
     height: 400px;
-    position: absolute;
     left: 95px;
     top: 614px;
 }
@@ -317,13 +417,44 @@
 .imagem_sith2 {
     width: 462px;
     height: 399px;
-    position: absolute;
     left: 916px;
     top: 166px;
 }
 
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer ul {
+    display: flex;
+    justify-content:center;
+}
+
+footer li img {
+    width: 100px;
+    height: 100px;
+    left: 95px;
+    top: 614px;
+}
+
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+footer {
+    padding-top: 16px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+
 /*Final CSS Sith*/
 
+--------------------
 
 .menu {
     list-style: none;
