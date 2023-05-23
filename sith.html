@@ -5,68 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars</title>
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <div class="center">
-        <div class="logo">
-            <img class="logo_starwars" src="./Assets/LogoStarwars.png" alt="logo Star Wars">
+    <div id="conteudoTotal">
+        <!--<nav id="hamburguer">
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div> 
+                    <div class="logo">
+                        <h1>Navbar</h1>
+                    </div>
+                    <div class="menu-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blogs</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>-->
+        <header class="cabeçalho">
+            <div class="center">
+            <div class="logo">
+                <img class="logo_starwars" src="./Assets/LogoStarwars.png" alt="logo Star Wars">
+            </div>
+            <div class="menu">
+                <a href="./index.html">Sobre</a>
+                <a href="./jedi.html">Jedi</a>
+                <a href="./sith.html">Sith</a>
+                <a href="./rebeldes.html">Rebeldes</a>
+                <a href="./mandalorian.html">Mandalorian</a>
+            </div>  
+            </div>
+        </header>
+        <nav class="navegação">
+            <ul>
+                <li>
+                    <a href="">PERSONAGENS PRINCIPAIS</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">ETIMOLOGIA</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">DESENVOLVIMENTO</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">FORÇA OCULTA</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">O CÓDIGO SITH</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="conteudoTexto">
+        <section id="section" class="paragrafo_1">
+            <main>
+                <h1 class="paragrafo_1_titulo">Quem são os Sith?</h1>
+                <p class="paragrafo_1_texto">
+                    Os Sith são uma ordem de usuários da Força na galáxia de Star Wars que se concentram no poder e na conquista. Eles são conhecidos por seu uso do lado sombrio da Força, que lhes permite controlar mentes, lançar raios de energia e realizar outras habilidades impressionantes, mas também corrompe suas almas e os leva a cometer atos cruéis.
+            Os Sith são tipicamente ensinados por um mestre, que é responsável por transmitir seus conhecimentos e habilidades para um aprendiz, que eventualmente deve desafiá-lo em um duelo até a morte para se tornar o novo mestre.
+                </p>
+                <!--<img class="imagem_sith1" src="./Assets/Sith Image1.png" alt="Darth Vader com Storm Troopers ao fundo.">-->
+            </main>
+        </section>
+        <section id="section2" class="paragrafo_2">
+            <main>
+                <h1 class="paragrafo_2_titulo">Qual sua história?</h1>
+                <p class="paragrafo_2_texto">
+                    Ao longo da história de Star Wars, os Sith têm desempenhado papéis importantes, lutando contra a Ordem Jedi e tentando dominar a galáxia. Alguns dos personagens Sith mais famosos incluem Darth Vader, o aprendiz do Imperador Palpatine, e Darth Maul, o aprendiz de Darth Sidious.
+            Em geral, a filosofia Sith é baseada em buscar o poder e a dominação, com pouca consideração pelos outros ou pelos valores morais. No entanto, alguns personagens Sith têm apresentado nuances mais complexas, explorando as consequências da busca pelo poder absoluto e a natureza da lealdade e traição na política Sith.
+                </p>
+                <!--<img class="imagem_sith2" src="./Assets/Sith Image2.png" alt="Sith encarando uma paisagem e uma nave X-Wing.">-->
+            </main>
+        </section>
         </div>
-        <div class="menu">
-            <a href="./index.html">Sobre</a>
-            <a href="./jedi.html">Jedi</a>
-            <a href="./sith.html">Sith</a>
-            <a href="./rebeldes.html">Rebeldes</a>
-            <a href="./mandalorian.html">Mandalorian</a>
-        </div>  
+        <div id="imagemPrincipal" class="imagemContainer">
+            <img class="imagemCentro" src="./Assets/Sith Image1.png" alt="">
         </div>
-    </header>
-
-<section class="paragrafo_1">
-    <main>
-        <h1 class="paragrafo_1_titulo">Quem são os Sith?</h1>
-        <p class="paragrafo_1_texto">
-            Os Sith são uma ordem de usuários da Força na galáxia de Star Wars que se concentram no poder e na conquista. Eles são conhecidos por seu uso do lado sombrio da Força, que lhes permite controlar mentes, lançar raios de energia e realizar outras habilidades impressionantes, mas também corrompe suas almas e os leva a cometer atos cruéis.
-Os Sith são tipicamente ensinados por um mestre, que é responsável por transmitir seus conhecimentos e habilidades para um aprendiz, que eventualmente deve desafiá-lo em um duelo até a morte para se tornar o novo mestre.
-        </p>
-        <img class="imagem_sith1" src="./Assets/Sith Image1.png" alt="Darth Vader com Storm Troopers ao fundo.">
-    </main>
-</section>
-
-<section class="paragrafo_2">
-    <main>
-        <h1 class="paragrafo_2_titulo">Qual sua história?</h1>
-        <p class="paragrafo_2_texto">
-            Ao longo da história de Star Wars, os Sith têm desempenhado papéis importantes, lutando contra a Ordem Jedi e tentando dominar a galáxia. Alguns dos personagens Sith mais famosos incluem Darth Vader, o aprendiz do Imperador Palpatine, e Darth Maul, o aprendiz de Darth Sidious.
-Em geral, a filosofia Sith é baseada em buscar o poder e a dominação, com pouca consideração pelos outros ou pelos valores morais. No entanto, alguns personagens Sith têm apresentado nuances mais complexas, explorando as consequências da busca pelo poder absoluto e a natureza da lealdade e traição na política Sith.
-        </p>
-        <img class="imagem_sith2" src="./Assets/Sith Image2.png" alt="Sith encarando uma paisagem e uma nave X-Wing.">
-    </main>
-</section>
-<!--<footer>
-    <div class="container container-flex">
-        <p>
-        2023 &copy; Projeto Coder House | Star Wars - Todos os direitos reservados
-        </p>
-        <ul class="container-flex">
-            <li>
-                <a href="https://www.facebook.com/StarWars.br/?locale=pt_BR" target="blank">
-                    <img src="./Assets/facebook.png" alt="Facebook">
+        <aside class="conteudoLateral">
+            <h1>CURIOSIDADES</h2>
+                <ul>
+                    <li>
+                        <a href="">Sabres de Luz</a>
+                    </li>
+                    <li>
+                        <a href="">Os mais poderosos</a>
+                    </li>
+                    <li>
+                        <a href="">Darth Vader: O mais temido</a>
+                    </li>
+                </ul>
+        </aside>
+        <footer class="rodape">
+        <div class="container container-flex">
+            <p>
+            2023 &copy; Projeto Coder House | Star Wars - Todos os direitos reservados
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="https://www.facebook.com/StarWars.br/?locale=pt_BR" target="blank">
+                        <img src="./Assets/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/starwars/">
+                        <img src="./Assets/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/starwars">
+                        <img src="./Assets/youtube.png" alt="YouTube">
                 </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/starwars/">
-                    <img src="./Assets/instagram.png" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/starwars">
-                    <img src="./Assets/youtube.png" alt="YouTube">
-                </a>
-            </li>
-        </ul>
-    </div>-->
-</footer>
+                </li>
+            </ul>
+        </div>
+        </footer>
+    </div>
 </body>
 </html>
