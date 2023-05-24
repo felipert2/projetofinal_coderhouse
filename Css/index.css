@@ -7,10 +7,12 @@ body {
     margin: 0px 80px;      
     font-family: 'Inter', sans-serif;   
   
-    background-color: black;
+    
+    background-image:url(../Assets/papel-de-parede-pixel-parede.jpg)
 }
 
 #grid{
+    
     width: 100%;
     display: grid;
     grid-template-columns:  10% auto 10%;
