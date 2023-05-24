@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');  
+
+
+
+body {
+    margin: 0px 80px;      
+    font-family: 'Inter', sans-serif;   
+  
+    background-color: black;
+}
+
+#grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  10% auto 10%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho "
+    "esquerdo section1  direito"
+    "esquerdo section1  direito"
+    "esquerdo section2  direito"
+    "esquerdo section2  direito"
+    "rodape   rodape   rodape" ;
+
+}
+
+
+#cabecalho{
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+  
+   
+}
+
+#links__cabecalho{    
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bolder 800px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    ;
+}
+
+.links__header{
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+    
+    
+    
+}
+
+.links__header:hover {
+    color: yellow;
+}
+
+#navegacao__left{
+    grid-area: esquerdo;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#navegacao__right{
+    grid-area:direito;
+}
+
+#section1{
+grid-area: section1;
+display: flex;
+color: aliceblue;
+}
+
+#section2{
+color: aliceblue;
+grid-area: section2;
+display: flex;
+}
+#imagem2{
+    width: 50%;
+    padding-right: 80px;
+}
+
+#rodape{
+grid-area: rodape;
+;
+}
