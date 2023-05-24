@@ -14,7 +14,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns:  10% auto 10%;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
     "cabecalho cabecalho cabecalho "
     "esquerdo section1  direito"
@@ -22,7 +22,7 @@ body {
     "esquerdo section2  direito"
     "esquerdo section2  direito"
     "rodape   rodape   rodape"
-    "rodape   rodape   rodape" ;
+     ;
 
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .links__header:hover {
-    color:#EFB810;
+    color:#FFE81F;
 }
 
 #navegacao__left{
@@ -122,5 +122,12 @@ margin-right: 30px;
 
 #rodape{
 grid-area: rodape;
-;
+margin-top: 50px;
+color: aliceblue;
+margin-left: auto;
+margin-right: auto; 
+}
+
+#texto__rodape{
+    text-align: center;
 }
