@@ -61,7 +61,7 @@ body {
 }
 
 .links__header:hover {
-    color: yellow;
+    color:#EFB810;
 }
 
 #navegacao__left{
@@ -90,7 +90,7 @@ margin-right: 30px;
 
 #titulo{
     text-transform: uppercase;
-    text-align: start;
+    ;
 }
 #container__texto{
     display: flex;
