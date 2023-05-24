@@ -79,6 +79,21 @@ body {
 grid-area: section1;
 display: flex;
 color: aliceblue;
+align-items: flex-start;
+}
+
+#titulo{
+    text-transform: uppercase;
+}
+#container__texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.paragrafo__index__imagem{
+    width: 50%;
 }
 
 #section2{
@@ -86,6 +101,8 @@ color: aliceblue;
 grid-area: section2;
 display: flex;
 }
+
+
 #imagem2{
     width: 50%;
     padding-right: 80px;
