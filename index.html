@@ -1,69 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars</title>
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="../Css/index1.css">
+    <title>Sobre</title>
 </head>
 
-<body>
-    <header  class="container__header">
-        <div class="container__logo">
-        <div class="logo__Star"> <a href="./index.html"> <img  src="./Assets/Logo__Starwars.png"  alt="logo Star Wars" ></a></div><!--logo-->
-    </div>
 
-        <div class="menus">
+
+<body>
+
+    <div id="grid">
+    <header id="cabecalho">
+        <a id="imagem" href="./index.html"> <img src="../Assets/Logo__Starwars.png" alt="logo Star Wars"></a><!--logo-->
+
+        <div id="links__cabecalho">
             <a class="links__header" href="./index.html">Sobre</a>
             <a class="links__header" href="./mandalorian.html">Mandalorian</a>
             <a class="links__header" href="./jedi.html">Jedi</a>
             <a class="links__header" href="./sith.html">Sith</a>
             <a class="links__header" href="./rebeldes.html">Rebelde</a>
-        </div><!--menu-->               
-    </header><!--center__header-->
+        </div>
+    </header>
+
+    <nav id="navegacao__right">
+        <a class="links__header" href="./index.html">Sobre</a>
+        <a class="links__header" href="./mandalorian.html">Mandalorian</a>
+        <a class="links__header" href="./jedi.html">Jedi</a>
+        <a class="links__header" href="./sith.html">Sith</a>
+        <a class="links__header" href="./rebeldes.html">Rebelde</a>
+
+    </nav>
+
+    <section id="section1">
+        <div>
+        <h1 >Conhecendo Star Wars</h1>
+        <p >Star Wars é uma saga de filmes de ficção científica criada por George Lucas.
+            A história se passa em uma galáxia fictícia e acompanha as aventuras de personagens como Luke Skywalker,
+            Princesa Leia e Han Solo, que lutam contra o Império Galáctico liderado pelo vilão Darth Vader. A série é
+            conhecida por suas batalhas épicas de sabre de luz, a Força (uma habilidade que permite manipular objetos e
+            controlar mentes) e por suas criaturas alienígenas icônicas, como Chewbacca e Yoda. Além dos filmes, a
+            franquia inclui livros, quadrinhos, jogos e séries de televisão. Star Wars se tornou um fenômeno cultural e
+            tem uma grande base de fãs em todo o mundo.</p>
+        </div>
+        <img class="paragrafo__index__imagem" src="../Assets/Jedi_img1.png" alt="Dois Jedis lutando"></p>
+    </section>
+
+    <section id="section2">
+        <img id="imagem2" src="../Assets/contato 3.png" alt="Stormtrooper com o telefone na mão">
+
+        <form class="container__form">
+            <fieldset class="form__texto">
+                <legend>
+                    <h2>Contate-nos</h2>
+                </legend>
+                <legend>
+                    <h4>Envie suas duvidas sobre o universo de Star Wars</h4>
+                </legend>
+                Nome:<input><br>
+                E-mail:<input><br>
+                Telefone:<input><br>
+                Mensagem:<input><br>
+
+            </fieldset>
+        </form>
+    </section>
 
 
 
-<main class="container">
-    <section class="paragrafo__index">
-    <main class="container__index__texto__titulo">
-        <h1 class="paragrafo__index__titulo">Conhecendo Star Wars</h1>
-        <p class="paragrafo__index__texto">Star Wars é uma saga de filmes de ficção científica criada por George Lucas. A história se passa em uma galáxia fictícia e acompanha as aventuras de personagens como Luke Skywalker, Princesa Leia e Han Solo, que lutam contra o Império Galáctico liderado pelo vilão Darth Vader.  A série é conhecida por suas batalhas épicas de sabre de luz, a Força (uma habilidade que permite manipular objetos e controlar mentes) e por suas criaturas alienígenas icônicas, como Chewbacca e Yoda. Além dos filmes, a franquia inclui livros, quadrinhos, jogos e séries de televisão. Star Wars se tornou um fenômeno cultural e tem uma grande base de fãs em todo o mundo.</p>
-        
-    </main>
+    <aside id="navegacao__left">
+        <a class="links__header" href="./index.html">Sobre</a>
+        <a class="links__header" href="./mandalorian.html">Mandalorian</a>
+        <a class="links__header" href="./jedi.html">Jedi</a>
+        <a class="links__header" href="./sith.html">Sith</a>
+        <a class="links__header" href="./rebeldes.html">Rebelde</a>
+    </aside>
 
-    
-    <img class="paragrafo__index__imagem" src="./Assets/Jedi_img1.png" alt="Dois Jedis lutando">
-    
-</section>
-
-
-
-<section class="contato">
-    <div class="container__imagem__contato">
-     <img class="Contato__imagem" src="./Assets/contato 3.png" alt="Stormtrooper com o telefone na mão">
-    </div> <!-- div Formualario -->
-   
-            <form class="container__form">
-        <fieldset class="form__texto">
-            <legend><h2>Contate-nos</h2></legend>
-            <legend><h4>Envie suas duvidas sobre o universo de Star Wars</h4>
-            </legend>
-            Nome:<input><br>
-            E-mail:<input><br>
-            Telefone:<input><br>
-            Mensagem:<input><br>
-
-        </fieldset>
+    <footer id="rodape">
+        RODAPÉ
+    </footer>
+</div><!-- Final Grid -->
 
 
-    </form>
-    </div><!-- div Formualario -->
-
-  </section>
-</main>
-
-<footer></footer>
 </body>
+
 </html>
