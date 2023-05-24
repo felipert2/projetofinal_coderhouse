@@ -70,6 +70,9 @@ body {
 
 #navegacao__right{
     grid-area:direito;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #section1{
