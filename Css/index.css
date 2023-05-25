@@ -96,6 +96,11 @@ margin-bottom: 20px;
     align-items: flex-start;
 }
 
+#linktexto{
+text-decoration: none;  
+color: #FFE81F;  
+}
+
 #section2{
     grid-area: section2;
     display: flex;
