@@ -120,6 +120,13 @@ margin-right: 30px;
 #imagem2{
     width: 50%;
     padding-right: 80px;
+    margin: auto;
+    
+}
+.container__form{
+    margin: auto;
+    justify-content: flex-start;
+    
 }
 
 #rodape{
