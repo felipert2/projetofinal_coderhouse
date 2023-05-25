@@ -7,12 +7,12 @@ body {
     margin: 0px 80px;      
     font-family: 'Inter', sans-serif;   
   
-    
+  
     background-image:url(../Assets/papel-de-parede-pixel-parede.jpg)
 }
 
 #grid{
-    background-color: rgba(0,0,0,0.6);    
+    background-color: rgba(0,0,0,0.6);     
     width: 100%;
     display: grid;
     grid-template-columns:  10% auto 10%;
@@ -35,6 +35,9 @@ body {
     align-items: center;
     align-content: space-around;
     gap: 40px;
+    
+    
+    
     
   
    
@@ -95,7 +98,7 @@ margin-bottom: 20PX;
     text-transform: uppercase;
     ;
 }
-#container__texto{
+.container__texto{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -128,9 +131,11 @@ grid-area: rodape;
 margin-top: 50px;
 color: aliceblue;
 margin-left: auto;
-margin-right: auto; 
+margin-right: auto;
+
 }
 
 #texto__rodape{
     text-align: center;
+   
 }
