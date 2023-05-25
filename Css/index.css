@@ -4,11 +4,9 @@
 
 
 body {
-    margin: 0px 80px;      
-    font-family: 'Inter', sans-serif;   
-  
-    
-    background-image:url(../Assets/papel-de-parede-pixel-parede.jpg)
+    margin: 0 5%;      
+    font-family: 'Inter', sans-serif;      
+    background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
 }
 
 #grid{
@@ -24,18 +22,14 @@ body {
     "esquerdo section2  direito"
     "esquerdo section2  direito"
     "rodape   rodape   rodape";
-
 }
 
-
 #cabecalho{
+    margin-left: 5px;
     grid-area: cabecalho;
     display: flex;
-    align-items: center;
-    align-content: space-around;
-    gap: 40px;
-    
-  
+    align-items: center;    
+    gap: 40px; 
    
 }
 
@@ -46,18 +40,14 @@ body {
     font-weight: bolder 800px;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    
-    margin-left: 40px
-    ;
+    text-transform: uppercase;    
+    margin-left: 40px;
 }
 
 .links__header{
     text-decoration: none;
     color: white; 
-    padding: 10px;
-    
-    
+    padding: 10px;     
     
 }
 
@@ -69,15 +59,14 @@ body {
     grid-area: esquerdo;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    
 
 }
 
 #navegacao__right{
     grid-area:direito;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column;    
 }
 
 #section1{
@@ -87,33 +76,33 @@ color: aliceblue;
 align-items: flex-start;
 margin-left: 30px;
 margin-right: 30px;
-margin-bottom: 20PX;
+margin-bottom: 20px;
 }
 
 #titulo{
     text-transform: uppercase;
-    ;
+    
 }
 #container__texto{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-right: 50px;
-    
-    
+    padding-right: 50px;  
 
 }
 
 .paragrafo__index__imagem{
-    width: 50%;
+    margin: auto;
+    align-items: flex-start;
 }
 
 #section2{
-color: aliceblue;
-grid-area: section2;
-display: flex;
-margin-left: 30px;
-margin-right: 30px;
+    grid-area: section2;
+    display: flex;
+    color: aliceblue;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
@@ -126,7 +115,7 @@ margin-right: 30px;
 .container__form{
     margin: auto;
     justify-content: flex-start;
-    
+    margin-top: 4%;
 }
 
 #rodape{
