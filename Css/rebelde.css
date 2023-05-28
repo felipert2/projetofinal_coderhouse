@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');  
 
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 body {
@@ -83,6 +88,7 @@ margin-bottom: 20PX;
 
 #titulo{
     text-transform: uppercase;
+    padding-bottom: 1.2em;
     
 }
 .container__texto{
@@ -123,7 +129,10 @@ justify-content: space-between;
   width: 50%;    
 }
 
-
+.paragrafo__02__titulo{
+    text-transform: uppercase;
+    padding-bottom: 1.2em;
+}
 
 
 
