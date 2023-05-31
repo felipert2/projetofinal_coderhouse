@@ -4,12 +4,15 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     margin: 0 5%;      
     font-family: 'Inter', sans-serif;      
     background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
+    color: white;
+    font-size: 16px;
 }
 
 #grid{
@@ -61,43 +64,52 @@ body {
 #navegacao__left{
     grid-area: esquerdo;
     display: flex;
-    flex-direction: column;
-    
-
+    flex-direction: column;    
 }
 
+.imagens__left{
+    width: 100%;
+    padding: 0.3em 0;
+}
+
+#titulo_left{
+    margin-bottom: 1em;
+}
 #navegacao__right{
     grid-area:direito;
     display: flex;
     flex-direction: column;    
 }
 
-#section1{
+#container__section1{
 grid-area: section1;
 display: flex;
 color: aliceblue;
-align-items: flex-start;
-margin-left: 30px;
-margin-right: 30px;
-margin-bottom: 20px;
+justify-content: space-between;
+padding: 0 3em 0 1em;
+
+
 }
 
 #titulo{
     text-transform: uppercase;
-    padding-bottom: 1.2em;
+    padding-bottom: 1em;
+    font-size: 40px;
     
 }
 #container__texto{
-    display: flex;
-    flex-direction: column;
+    
+    flex-grow: 1;
     width: 50%;
-    padding-right: 50px;  
+    padding: 0 3em 0 1em;
+   }
 
-}
-
+   #texto{
+    font-size: 22px;
+   }
 .paragrafo__index__imagem{
     margin: auto;
-    align-items: flex-start;
+   
 }
 
 #linktexto{
@@ -105,7 +117,7 @@ text-decoration: none;
 color: #FFE81F;  
 }
 
-#section2{
+#container__contato{
     grid-area: section2;
     display: flex;
     color: aliceblue;
@@ -124,12 +136,11 @@ color: #FFE81F;
 .container__form{
     margin: auto;
     justify-content: flex-start;
-    margin-top: 4%;
+    
 }
 
 #rodape{
 grid-area: rodape;
-margin-top: 50px;
 color: aliceblue;
 margin-left: auto;
 margin-right: auto; 
