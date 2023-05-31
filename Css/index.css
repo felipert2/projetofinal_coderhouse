@@ -86,9 +86,7 @@ grid-area: section1;
 display: flex;
 color: aliceblue;
 justify-content: space-between;
-padding: 0 3em 0 1em;
-
-
+padding: 0 1em 0 1em;
 }
 
 #titulo{
@@ -101,11 +99,11 @@ padding: 0 3em 0 1em;
     
     flex-grow: 1;
     width: 50%;
-    padding: 0 3em 0 1em;
+    padding: 0 2em 0 2em;
    }
 
    #texto{
-    font-size: 22px;
+    font-size: 24px;
    }
 .paragrafo__index__imagem{
     margin: auto;
@@ -120,17 +118,14 @@ color: #FFE81F;
 #container__contato{
     grid-area: section2;
     display: flex;
-    color: aliceblue;
-    align-items: flex-start;
-    margin-left: 30px;
-    margin-right: 30px;
+    justify-content: space-between;
+    padding: 0 2.5em 0 3em;
+    
 }
 
 
 #imagem2{
-    width: 50%;
-    padding-right: 80px;
-    margin: auto;
+   
     
 }
 .container__form{
