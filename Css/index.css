@@ -27,7 +27,8 @@ body {
     "esquerdo section1  direito"
     "esquerdo section2  direito"
     "esquerdo section2  direito"
-    "rodape   rodape   rodape";
+    "rodape   rodape   rodape"
+    ;
 }
 
 #cabecalho{
@@ -134,13 +135,24 @@ color: #FFE81F;
     
 }
 
-#rodape{
-grid-area: rodape;
-color: aliceblue;
-margin-left: auto;
-margin-right: auto; 
+.rodape__container{
+    grid-area: rodape;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+    
+   
+    
+    
 }
 
+.rodape__container{
+
+}
+
+
+
 #texto__rodape{
-    text-align: center;
+    
 }
