@@ -128,8 +128,8 @@ color: #FFE81F;
 #container__contato{
     grid-area: section2;
     display: flex;
-    justify-content: space-between;
-    padding: 0 2.5em 0 3em;
+    justify-content: space-around;
+    
     
 }
 
@@ -138,8 +138,7 @@ color: #FFE81F;
 }
 
 .container__form{
-    margin: auto;
-    justify-content: flex-start;    
+      
 }
 
 
