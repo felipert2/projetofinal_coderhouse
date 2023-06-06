@@ -1,1 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');  
 
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin: 0 5%;      
+    font-family: 'Inter', sans-serif;      
+    background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
+    color: white;
+    font-size: 16px;
+}
+
+#grid{
+    background-color: rgba(0,0,0,0.6);    
+    width: 100%;
+    display: grid;
+    grid-template-columns:  10% auto 10%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho "
+    "esquerdo section1  direito"
+    "esquerdo section1  direito"
+    "esquerdo section2  direito"
+    "esquerdo section2  direito"
+    "rodape   rodape   rodape"
+    ;
+}
+
+#cabecalho{
+    margin-left: 5px;
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;    
+    gap: 40px; 
+   
+}
+
+#links__cabecalho{    
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bolder 800;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;    
+    margin-left: 40px;
+}
+
+.links__header{
+    text-decoration:none;
+    color: white; 
+    padding: 10px;     
+    
+}
+
+.links__header:hover {
+    color:#FFE81F;
+}
+
+#navegacao__left{
+    grid-area: esquerdo;
+    display: flex;
+    flex-direction: column;    
+}
+
+.imagens__left{
+    width: 100%;
+    padding: 0.3em 0;
+}
+
+#titulo_left{
+    margin-bottom: 1em;
+}
+#navegacao__right{
+    grid-area:direito;
+    display: flex;
+    flex-direction: column;    
+}
+
+#container__section1{
+grid-area: section1;
+display: flex;
+color: aliceblue;
+justify-content: space-between;
+padding: 0 1em 0 1em;
+}
+
+#titulo{
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    font-size: 40px;
+    
+}
+#container__texto{
+    
+    flex-grow: 1;
+    width: 50%;
+    padding: 0 2em 0 2em;
+   }
+
+   #texto{
+    font-size: 24px;
+    justify-content: flex-start
+   }
+#paragrafo__index__imagem{
+    margin: 80%
+    
+   
+}
+
+#linktexto{
+text-decoration: none;  
+color: #FFE81F;  
+}
+
+#container__contato{
+    grid-area: section2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5em 0 3em;
+    
+}
+
+
+#imagem2{
+   
+    
+}
+
+
+.rodape__container{
+    grid-area: rodape;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+    
+   
+    
+    
+}
+
+.rodape__container{
+
+}
+
+
+
+#texto__rodape{
+    
+}
