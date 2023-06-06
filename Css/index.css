@@ -95,8 +95,8 @@ body {
 grid-area: section1;
 display: flex;
 color: aliceblue;
-justify-content: space-between;
-padding: 0 1em 0 1em;
+justify-content: space-around;
+
 }
 
 #titulo{
@@ -107,7 +107,7 @@ padding: 0 1em 0 1em;
 }
 #container__texto{
     
-    flex-grow: 1;
+ 
     width: 50%;
     padding: 0 2em 0 2em;
    }
