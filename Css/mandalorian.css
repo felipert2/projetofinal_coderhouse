@@ -76,16 +76,13 @@ body {
 .paragrafo_1_texto {
     display: flex;
     justify-content: center;
-    text-align: justify
+  
 }
 
 #section1 {
     grid-area: section1;
     display: flex;
-    color: aliceblue;
-    align-items: flex-start;
-    margin-left: 30px;
-    margin-right: 30px;
+    color: aliceblue;    
     justify-content: space-between;
 
 }
@@ -99,10 +96,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    text-align: justify;
+    
 
 }
+#imagem2 {  
 
+
+}
 .paragrafo__index__imagem {
     display: flex;
 
@@ -120,17 +120,13 @@ body {
 
 }
 
-#imagem2 {
-    display: flex;
 
-
-}
 
 .container__texto_02 {
     display: flex;
     flex-direction: column;
     width: 50%;
-    text-align: justify;
+   
 }
 
 footer {
@@ -181,14 +177,15 @@ footer {
 
 @media screen and (max-width: 480px) {
     #grid {
-        grid-template-columns: repeat (6, 1fr);
+        grid-template-columns: repeat (2, 1fr);
+        grid-template-rows: repeat(6 , 1fr);
         grid-template-areas:
             "cabecalho cabecalho"
             "section1 section1"
             "section1 section1"
             "section2 section2"
             "section2 section2"
-            "rodape rodape"
+            "rodape rodape";
 
     }
 
