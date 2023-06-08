@@ -88,12 +88,7 @@ body {
     display: flex;
 }
 
-.imagemContainer{
-    grid-area: imagem;
-    display: flex;
-    justify-content: space-around;
-   
-}
+
 
 .imagemCentro{
 width: 100%;
