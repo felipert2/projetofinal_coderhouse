@@ -32,8 +32,8 @@ body {
 
 #cabecalho{
     
-    margin-left: 1em;
-    grid-area: cabecalho;
+    grid-area: cabeçalho;
+    margin-left: 1em;   
     display: flex;
     align-items: center;    
     margin-bottom: 2em;
@@ -48,13 +48,14 @@ body {
     font-weight:  800;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase; 
- }
+    text-transform: uppercase;    
+   
+}
 
 .links__header{
     text-decoration: none;
     color: white; 
-    padding: 1em;       
+    padding: 1em;      
   
     
 }
@@ -66,6 +67,7 @@ body {
 #navegação{
     grid-area: navegação;
     width: 100%;
+   
     
 }
 .Links__nav{
