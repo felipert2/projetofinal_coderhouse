@@ -4,16 +4,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;  
     
 }
 
 body {
     margin: 0 5%;      
- 
+    font-family: 'Inter', sans-serif;
     background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
     color: white;
-   
+    font-size: 16px;
 }
 
 #grid {
@@ -33,11 +32,11 @@ body {
 
 #cabecalho{
     
-    grid-area: cabeçalho;
+    margin-left: 1em;
+    grid-area: cabecalho;
     display: flex;
-    align-items: center;  
-    margin-bottom: 2em;     
-  
+    align-items: center;    
+    margin-bottom: 2em;
 
    
 }
@@ -45,18 +44,17 @@ body {
 #links__cabecalho{    
     
     color: white;
-    text-decoration: none;    
+    text-decoration: none;
+    font-weight:  800;
     font-size: 40px;
-    font-weight: 800;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;    
-    margin-left: 40px;
-}
+    text-transform: uppercase; 
+ }
 
 .links__header{
     text-decoration: none;
     color: white; 
-    padding: 0.5em;     
+    padding: 1em;       
   
     
 }
