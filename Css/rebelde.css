@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
 *{
     margin: 0;
@@ -7,19 +7,19 @@
     
 }
 
-
 body {
     margin: 0 5%;      
-    font-family: 'Inter', sans-serif;    
+    font-family: 'Inter', sans-serif;
     background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
+    color: white;
+    font-size: 16px;
 }
-
 #grid{
     background-color: rgba(0,0,0,0.6);     
     width: 100%;
     display: grid;
     grid-template-columns:  10% auto 10%;
-    grid-template-rows: repeat(6, 1fr);
+
     grid-template-areas:
     "cabecalho cabecalho cabecalho "
     "esquerdo section1  direito"
@@ -31,11 +31,11 @@ body {
 }
 
 #cabecalho{
-    margin-left: 5px;
+    margin-left: 1em;
     grid-area: cabecalho;
     display: flex;
-    align-items: center;
-    gap: 40px; 
+    align-items: center;    
+    margin-bottom: 2em;
    
 }
 
@@ -43,17 +43,16 @@ body {
     
     color: white;
     text-decoration: none;
-    font-weight: bolder 800px;
+    font-weight:  800;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;    
-    margin-left: 40px;
+    text-transform: uppercase;   
 }
 
 .links__header{
     text-decoration: none;
     color: white; 
-    padding: 10px; 
+    padding: 1em;   
     
     
 }
