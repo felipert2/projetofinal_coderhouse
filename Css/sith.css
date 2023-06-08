@@ -4,22 +4,23 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;  
     
 }
 
 body {
     margin: 0 5%;      
-    font-family: 'Inter', sans-serif;
+ 
     background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
     color: white;
-    font-size: 16px;
+   
 }
 
 #grid {
     display: grid;
     background-color: rgba(0,0,0,);    
     width: 100%;
-    grid-template-columns: ( 10% auto auto 10%);
+    grid-template-columns: ( 10% 50% auto 10%);   
    
     grid-template-areas:
     "cabeçalho cabeçalho cabeçalho cabeçalho "
@@ -35,8 +36,8 @@ body {
     margin-left: 1em;
     grid-area: cabeçalho;
     display: flex;
-    align-items: center;    
-    
+    align-items: center;       
+  
 
    
 }
@@ -44,9 +45,9 @@ body {
 #links__cabecalho{    
     
     color: white;
-    text-decoration: none;
-    font-weight: bolder 800px;
+    text-decoration: none;    
     font-size: 40px;
+    font-weight: 800;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;    
     margin-left: 40px;
@@ -56,6 +57,7 @@ body {
     text-decoration: none;
     color: white; 
     padding: 1em;     
+  
     
 }
 
@@ -65,4 +67,21 @@ body {
 
 #navegação{
     grid-area: navegação;
+}
+
+.paragrafo_1{
+    grid-area: conteudoTexto;
+}
+
+.imagemContainer{
+    grid-area: imagem;
+}
+
+.conteudoLateral{
+    grid-area: conteudoLateral;
+}
+
+.rodape__container{
+grid-area: rodape;
+
 }
