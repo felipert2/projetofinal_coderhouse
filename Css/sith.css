@@ -18,7 +18,7 @@ body {
 
 #grid {
     display: grid;
-    background-color: rgba(0,0,0,);    
+    background-color: rgba(0,0,0,0.6);      
     width: 100%;
     grid-template-columns: ( 10% 50% auto 10%);   
    
@@ -67,6 +67,16 @@ body {
 
 #navegação{
     grid-area: navegação;
+    width: 100%;
+    
+}
+.Links__nav{
+    text-decoration: none;
+
+}
+
+.navegacao__lista{
+    list-style: none;
 }
 
 .paragrafo_1{
@@ -75,13 +85,24 @@ body {
 
 .imagemContainer{
     grid-area: imagem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.imagemCentro{
+width: 100%;
+height: 100%;
 }
 
 .conteudoLateral{
     grid-area: conteudoLateral;
+    width: 100%;
 }
 
 .rodape__container{
 grid-area: rodape;
+text-align: center;
+padding-top: 5em;
 
 }
