@@ -20,14 +20,13 @@ body {
     display: grid;
     background-color: rgba(0,0,0,0.6);      
     width: 100%;
-    grid-template-columns: ( 10% 50% auto 10%);   
-   
+    grid-template-columns: ( 10%  auto 10%);      
     grid-template-areas:
-    "cabeçalho cabeçalho cabeçalho cabeçalho "
-    "navegação conteudoTexto imagem conteudoLateral"
-    "navegação conteudoTexto imagem conteudoLateral"
-    "navegação conteudoTexto imagem conteudoLateral"
-     "rodape rodape rodape  rodape "
+    "cabeçalho cabeçalho  cabeçalho "
+    "navegação conteudoTexto  conteudoLateral"
+    "navegação conteudoTexto  conteudoLateral"
+    "navegação conteudoTexto conteudoLateral"
+     "rodape rodape rodape  "
     ;
     
 }
@@ -79,8 +78,14 @@ body {
     list-style: none;
 }
 
+.container__texto{
+    width: 100%;
+}
+
+
 .paragrafo_1{
     grid-area: conteudoTexto;
+    display: flex;
 }
 
 .imagemContainer{
