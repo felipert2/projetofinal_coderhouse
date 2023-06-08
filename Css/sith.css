@@ -32,10 +32,11 @@ body {
 }
 
 #cabecalho{
-    margin-left: 1em;
+    
     grid-area: cabeçalho;
     display: flex;
-    align-items: center;       
+    align-items: center;  
+    margin-bottom: 2em;     
   
 
    
