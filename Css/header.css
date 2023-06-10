@@ -1,0 +1,39 @@
+#cabecalho{
+    margin-left: 1em;
+    grid-area: cabecalho;
+    display: flex;
+    align-items: center;    
+    margin-bottom: 2em;
+
+   
+}
+
+#links__cabecalho{    
+    
+    color: white;
+    text-decoration: none;
+    font-weight:  800;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;    
+   
+}
+
+.links__header{
+    text-decoration: none;
+    color: white; 
+    padding: 3vh;     
+    
+}
+
+.links__header:hover {
+    color:#FFE81F;
+}
+
+
+@media screen and (max-width: 1246px){
+    #links__cabecalho{ 
+       
+        }
+    
+}

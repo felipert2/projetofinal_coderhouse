@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url("./header.css");
 
 *{
     margin: 0;
@@ -30,36 +31,8 @@ body {
 
 }
 
-#cabecalho{
-    margin-left: 1em;
-    grid-area: cabecalho;
-    display: flex;
-    align-items: center;    
-    margin-bottom: 2em;
-   
-}
 
-#links__cabecalho{    
-    
-    color: white;
-    text-decoration: none;
-    font-weight:  800;
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;   
-}
 
-.links__header{
-    text-decoration: none;
-    color: white; 
-    padding: 1em;   
-    
-    
-}
-
-.links__header:hover {
-    color:#FFE81F;
-}
 
 #navegacao__left{
     grid-area: esquerdo;
@@ -113,7 +86,6 @@ margin-right: 30px;
 justify-content: space-between;
 
 }
-
 
 
 #imagem2{    

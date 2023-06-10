@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url("./header.css");
 
 *{
     margin: 0;
@@ -21,51 +22,19 @@ body {
     width: 100%;
     grid-template-columns: ( 10%  auto 10%);      
     grid-template-areas:
-    "cabeçalho cabeçalho  cabeçalho "
+    "cabecalho cabecalho  cabecalho "
     "navegação conteudoTexto  conteudoLateral"
     "navegação conteudoTexto  conteudoLateral"
     "navegação conteudoTexto conteudoLateral"
      "rodape rodape rodape  "
     ;
-    
-}
+    }
 
-#cabecalho{
-    
-    grid-area: cabeçalho;
-    margin-left: 1em;   
-    display: flex;
-    align-items: center;    
-    margin-bottom: 2em;
 
-   
-}
 
-#links__cabecalho{    
-    
-    color: white;
-    text-decoration: none;
-    font-weight:  800;
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;    
-   
-}
-
-.links__header{
-    text-decoration: none;
-    color: white; 
-    padding: 1em;      
-  
-    
-}
-
-.links__header:hover {
-    color:#FFE81F;
-}
 
 #navegação{
-    grid-area: navegação;
+    grid-area: navegacao;
     width: 100%;
    
     
