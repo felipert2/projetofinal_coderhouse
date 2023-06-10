@@ -1,4 +1,4 @@
-#cabecalho{
+.cabecalho{
     margin-left: 1em;
     grid-area: cabecalho;
     display: flex;
@@ -8,7 +8,7 @@
    
 }
 
-#links__cabecalho{    
+.links__cabecalho{    
     
     color: white;
     text-decoration: none;
@@ -31,9 +31,10 @@
 }
 
 
-@media screen and (max-width: 1246px){
-    #links__cabecalho{ 
-       
-        }
+@media screen and (min-width: 1728px){
+  
+    .links__cabecalho{
+        margin-left: 100px;
+    }
     
 }
