@@ -1,9 +1,10 @@
 .cabecalho{
-    margin-left: 1em;
+    margin-left: .5em;
     grid-area: cabecalho;
-    display: flex;
-    align-items: center;    
+    display: flex;       
     margin-bottom: 2em;
+    position: relative;
+    align-items: center;
   
 
    
@@ -17,14 +18,16 @@
     font-weight:  800;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;    
+    text-transform: uppercase;   
+    margin-left: 2vh;
+   
    
 }
 
 .links__header{
     text-decoration: none;
-    color: white; 
-    padding: 3vh;     
+    color: white;   
+    padding: 0.8em;
     
 }
 
@@ -33,8 +36,8 @@
 }
 
 .cabeçalho__menu-hamburguer{
-    width: 24px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
     background-image: url("../Assets/Menu.svg");
     display:inline-block ;
     background-repeat: no-repeat;
@@ -42,23 +45,68 @@
     
 }
 
+.container{
+    display: none;
+}
 
-@media screen and (min-width: 1728px){
-  
-    .links__cabecalho{
-        margin-left: 100px;
+
+@media screen and (max-width: 768px)  {
+
+    .grid{
+        background-color: rgba(0,0,0,0.6);    
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 80px;      
+        grid-template-areas:
+        "cabecalho cabecalho"
+        "section1 section1"
+        "section1 section1"
+        "section2 section2"
+        "section2 section2"
+        "rodape   rodape" ;
+    }
+    
+
+    .links__header{      
+        display: none;
+    }
+
+    .container{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .lista-menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+        }
+
+        .container__botao:checked~.lista-menu{
+            display: block;
+        }
+
+        .container__botao{
+            display: none;
+        }
+        
+
+    .imagem__cabecalho{
+        display: none;
+    }
+    .container__imagem{
+        width: 50%;
+        padding: 1em;
+
     }
     
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1550px){
 
-    .cabecalho{
-    display: none;
-}
-.container{
-    display: block;
-}
-
+    .links__header{
+    padding: 0.5em;
+   }
 }

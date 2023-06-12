@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="./Css/index.css">
     <title>Início</title>
 </head>
@@ -16,133 +16,154 @@
 
     <div class="grid">
 
-    <header class="cabecalho">
-        <div class="imagem__cabecalho">
-        <a class="imagem" href="./index.html"> <img src="./Assets/Logo__Starwars.png" alt="logo Star Wars"></a><!--logo-->
-       </div>
-        <div class="links__cabecalho">
-            <a class="links__header" href="./index.html">Início</a>
+        <header class="cabecalho">
+            <div class="imagem__cabecalho">
+                <a href="./index.html"> <img src="./Assets/Logo__Starwars.png" alt="logo Star Wars"></a><!--logo-->
+            </div>
+            <div class="links__cabecalho">
+                <a class="links__header" href="./index.html">Início</a>
+                <a class="links__header" href="./mandalorian.html">Mandalorian</a>
+                <a class="links__header" href="./jedi.html">Jedi</a>
+                <a class="links__header" href="./sith.html">Sith</a>
+                <a class="links__header" href="./rebeldes.html">Rebelde</a>
+            </div>
+
+
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+
+                <ul class="lista-menu">
+
+                    <li class="lista-menu__item">
+                        <a href="./index.html" class="lista-menu__link">Início</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./mandalorian.html" class="lista-menu__link">Mandalorian</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./jedi.htm" class="lista-menu__link">Jedi</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./sith.html" class="lista-menu__link">Sith</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./rebeldes.html" class="lista-menu__link">Rebelde </a>
+                    </li>
+                </ul>
+                <img src="./Assets/logo-mobile.webp" alt="logo Star Wars" class="container__imagem">
+
+
+            </div>
+
+        </header>
+
+        <nav id="navegacao__right">
+            <a class="links__header" href="./index.html">Sobre</a>
             <a class="links__header" href="./mandalorian.html">Mandalorian</a>
             <a class="links__header" href="./jedi.html">Jedi</a>
             <a class="links__header" href="./sith.html">Sith</a>
             <a class="links__header" href="./rebeldes.html">Rebelde</a>
-        </div>
 
+        </nav>
 
-        <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
-                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-            </label>
+        <section id="container__section1">
+            <div id="container__texto">
+                <h1 id="titulo">Conhecendo Star Wars</h1>
+                <p id="texto">Star Wars é uma saga de <a id="linktexto" href="https://www.starwars.com/films">filmes</a>
+                    e <a id="linktexto" href="https://www.starwars.com/series">series</a> de ficção científica criada
+                    por George Lucas.
+                    A história se passa em uma galáxia fictícia e acompanha as aventuras de personagens como Luke
+                    Skywalker,
+                    Princesa Leia e Han Solo, que lutam contra o Império Galáctico liderado pelo vilão Darth Vader. A
+                    série é
+                    conhecida por suas batalhas épicas de sabre de luz, a Força (uma habilidade que permite manipular
+                    objetos e
+                    controlar mentes) e por suas criaturas alienígenas icônicas, como Chewbacca e Yoda. Além dos filmes,
+                    a
+                    franquia inclui livros, quadrinhos, jogos e séries de televisão. Star Wars se tornou um fenômeno
+                    cultural e
+                    tem uma grande base de fãs em todo o mundo.</p>
+            </div>
 
-            <ul class="lista-menu">
-                
-                <li class="lista-menu__item">
-                    <a href="./index.html" class="lista-menu__link">Início</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="./mandalorian.html" class="lista-menu__link">Mandalorian</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="./jedi.htm" class="lista-menu__link">Jedi</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="./sith.html" class="lista-menu__link">Sith</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="./rebeldes.html" class="lista-menu__link">Rebelde </a>
-                </li>
-            </ul>
-            <img src="" alt="logo Star Wars" class="container__imagem">
-          
+            <div>
+                <img class="paragrafo__index__imagem" src="./Assets/Jedi_img1.png" alt="Dois Jedis lutando"></p>
+            </div>
+        </section>
 
-        </div>
+        <section id="container__contato">
+            <div class="container__imagem">
+                <img id="imagem2" src="./Assets/contato 3.png" alt="Stormtrooper com o telefone na mão">
+            </div>
+            <div>
+                <form class="container__form">
+                    <fieldset class="form__texto">
+                        <legend>
+                            <h2>Contate-nos</h2>
+                        </legend>
+                        <legend>
+                            <h4>Envie suas duvidas sobre o universo de Star Wars</h4>
+                        </legend>
+                        Nome:<input><br>
+                        E-mail:<input><br>
+                        Telefone:<input><br>
+                        Mensagem:<input><br>
 
-    </header>
-
-    <nav id="navegacao__right">
-        <a class="links__header" href="./index.html">Sobre</a>
-        <a class="links__header" href="./mandalorian.html">Mandalorian</a>
-        <a class="links__header" href="./jedi.html">Jedi</a>
-        <a class="links__header" href="./sith.html">Sith</a>
-        <a class="links__header" href="./rebeldes.html">Rebelde</a>
-
-    </nav>
-
-    <section id="container__section1">
-        <div id="container__texto">
-            <h1 id="titulo" >Conhecendo Star Wars</h1>
-                <p id="texto" >Star Wars é uma saga de <a id="linktexto" href="https://www.starwars.com/films">filmes</a> e <a id="linktexto" href="https://www.starwars.com/series">series</a>  de ficção científica criada por George Lucas.
-            A história se passa em uma galáxia fictícia e acompanha as aventuras de personagens como Luke Skywalker,
-            Princesa Leia e Han Solo, que lutam contra o Império Galáctico liderado pelo vilão Darth Vader. A série é
-            conhecida por suas batalhas épicas de sabre de luz, a Força (uma habilidade que permite manipular objetos e
-            controlar mentes) e por suas criaturas alienígenas icônicas, como Chewbacca e Yoda. Além dos filmes, a
-            franquia inclui livros, quadrinhos, jogos e séries de televisão. Star Wars se tornou um fenômeno cultural e
-            tem uma grande base de fãs em todo o mundo.</p>
-        </div>
-    
-         <div>
-            <img class="paragrafo__index__imagem" src="./Assets/Jedi_img1.png" alt="Dois Jedis lutando"></p>
-        </div>
-    </section>
-
-    <section id="container__contato">
-    <div class="container__imagem">
-        <img id="imagem2" src="./Assets/contato 3.png" alt="Stormtrooper com o telefone na mão">
-    </div>
-    <div>
-        <form class="container__form">
-            <fieldset class="form__texto">
-                <legend>
-                    <h2>Contate-nos</h2>
-                </legend>
-                <legend>
-                    <h4>Envie suas duvidas sobre o universo de Star Wars</h4>
-                </legend>
-                Nome:<input><br>
-                E-mail:<input><br>
-                Telefone:<input><br>
-                Mensagem:<input><br>
-
-            </fieldset>
-        </form>
-    </div>
-    </section>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
 
 
 
-    <aside id="navegacao__left">
-        <div class="container__imagens__left">
-        <h4 id="titulo_left">Filmes em ordem cronológica</h4>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-a-ameaca-fantasma-episodio-i/2ezYynkgW1AH"><img class="imagens__left" src="./Assets/episodio1.jpg" alt="A ameaça Fantasma"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-ataque-dos-clones-episodio-ii/mgpYHGnzZW6N"><img class="imagens__left" src="./Assets/episodio2.jpg" alt="Ataque dos clones"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-a-vinganca-dos-sith-episodio-iii/4WvbqLFumNvi"><img class="imagens__left" src="./Assets/episodio3.jpg" alt="A vingança dos sith"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-uma-nova-esperanca-episodio-iv/12fVeZxD2fWJ"><img class="imagens__left" src="./Assets/episodio4.jpg" alt="Uma nova esperança"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-o-imperio-contra-ataca-episodio-v/iqtDTZAewwYl"><img class="imagens__left" src="./Assets/episodio5.jpg" alt="O imperio contra-ataca"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-o-retorno-de-jedi-episodio-vi/6QGKo5mjDBS8"><img class="imagens__left" src="./Assets/episodio6.jpg" alt="O retorno de Jedi"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-o-despertar-da-forca-episodio-vii/1LEKJPDPeMr7"><img class="imagens__left" src="./Assets/episodio7.jpg" alt="Odespertar da força"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-os-ultimos-jedi-episodio-viii/1nCWFK1pmAI0"><img class="imagens__left" src="./Assets/episodio8.jpg" alt="Os últimos Jedi"></a>
-        <a  href="https://www.disneyplus.com/pt-br/movies/star-wars-a-ascensao-skywalker-episodio-ix/5e8JThYwCYgw"><img class="imagens__left" src="./Assets/episodio9.jpg" alt="A ascenção Skywalker"></a>
-    </div>
-    </aside>
+        <aside id="navegacao__left">
+            <div class="container__imagens__left">
+                <h4 id="titulo_left">Filmes em ordem cronológica</h4>
+                <a href="https://www.disneyplus.com/pt-br/movies/star-wars-a-ameaca-fantasma-episodio-i/2ezYynkgW1AH"><img
+                        class="imagens__left" src="./Assets/episodio1.jpg" alt="A ameaça Fantasma"></a>
+                <a href="https://www.disneyplus.com/pt-br/movies/star-wars-ataque-dos-clones-episodio-ii/mgpYHGnzZW6N"><img
+                        class="imagens__left" src="./Assets/episodio2.jpg" alt="Ataque dos clones"></a>
+                <a
+                    href="https://www.disneyplus.com/pt-br/movies/star-wars-a-vinganca-dos-sith-episodio-iii/4WvbqLFumNvi"><img
+                        class="imagens__left" src="./Assets/episodio3.jpg" alt="A vingança dos sith"></a>
+                <a href="https://www.disneyplus.com/pt-br/movies/star-wars-uma-nova-esperanca-episodio-iv/12fVeZxD2fWJ"><img
+                        class="imagens__left" src="./Assets/episodio4.jpg" alt="Uma nova esperança"></a>
+                <a
+                    href="https://www.disneyplus.com/pt-br/movies/star-wars-o-imperio-contra-ataca-episodio-v/iqtDTZAewwYl"><img
+                        class="imagens__left" src="./Assets/episodio5.jpg" alt="O imperio contra-ataca"></a>
+                <a href="https://www.disneyplus.com/pt-br/movies/star-wars-o-retorno-de-jedi-episodio-vi/6QGKo5mjDBS8"><img
+                        class="imagens__left" src="./Assets/episodio6.jpg" alt="O retorno de Jedi"></a>
+                <a
+                    href="https://www.disneyplus.com/pt-br/movies/star-wars-o-despertar-da-forca-episodio-vii/1LEKJPDPeMr7"><img
+                        class="imagens__left" src="./Assets/episodio7.jpg" alt="Odespertar da força"></a>
+                <a href="https://www.disneyplus.com/pt-br/movies/star-wars-os-ultimos-jedi-episodio-viii/1nCWFK1pmAI0"><img
+                        class="imagens__left" src="./Assets/episodio8.jpg" alt="Os últimos Jedi"></a>
+                <a
+                    href="https://www.disneyplus.com/pt-br/movies/star-wars-a-ascensao-skywalker-episodio-ix/5e8JThYwCYgw"><img
+                        class="imagens__left" src="./Assets/episodio9.jpg" alt="A ascenção Skywalker"></a>
+            </div>
+        </aside>
 
-    <footer class="rodape__container">
-       
-        <div>
-            <p id="texto__rodape">More From Star Wars:</p>
-       </div>
+        <footer class="rodape__container">
 
-       <div>
-        <a href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"><img src="./Assets/facebook.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/starwars/"><img src="./Assets/instagram.png" alt="instagram"></a>
-        <a href="https://twitter.com/starwars"><img src="./Assets/twitter.png" alt="twitter"></a>
-        <a href="https://www.youtube.com/user/starwars"><img src="./Assets/youtube.png" alt="youtube"></a>
-        <a href="https://www.starwarskids.com/"><img src="./Assets/kids.png" alt=""></a>
-    </div>
-    </footer>
+            <div>
+                <p id="texto__rodape">More From Star Wars:</p>
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"><img
+                        src="./Assets/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/starwars/"><img src="./Assets/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/starwars"><img src="./Assets/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/user/starwars"><img src="./Assets/youtube.png" alt="youtube"></a>
+                <a href="https://www.starwarskids.com/"><img src="./Assets/kids.png" alt=""></a>
+            </div>
+        </footer>
 
 
-</div><!-- Final Grid -->
+    </div><!-- Final Grid -->
 
 
 
