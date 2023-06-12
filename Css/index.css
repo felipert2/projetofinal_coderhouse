@@ -120,18 +120,14 @@ color: #FFE81F;
     padding-top: 8em;
 }
 
-.rodape__container{
 
-}
-
-
-
-#texto__rodape{
-    
-}
 
 @media screen and (max-width: 768px)  {
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .grid{
         background-color: rgba(0,0,0,0.6);    
        
@@ -158,6 +154,9 @@ color: #FFE81F;
     grid-area: section1;
     display: flex;
     color: aliceblue;
-   flex-direction: column;
-    
+   flex-direction: column;    
+    }
+
+    #container__contato{
+        flex-direction: column;
     }
