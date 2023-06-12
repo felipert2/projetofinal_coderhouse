@@ -141,7 +141,6 @@ color: #FFE81F;
         "section2 "
         "rodape   " ;
     }
-}
 
 #navegacao__left{
     display: none;
@@ -153,6 +152,7 @@ color: #FFE81F;
 #container__section1{
     grid-area: section1;
     display: flex;
+    flex-direction: row;
     color: aliceblue;
    flex-direction: column;    
     }
@@ -160,3 +160,4 @@ color: #FFE81F;
     #container__contato{
         flex-direction: column;
     }
+}
