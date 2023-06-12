@@ -39,6 +39,7 @@
     display:inline-block ;
     background-repeat: no-repeat;
     margin-top: 1.2em;
+    
    
     
     
@@ -65,10 +66,14 @@
 
     .container{
         display: block;
-        display: flex;
-        
+        display: flex;        
         align-content: space-between;
     }
+        .container__imagem{
+width: 20%;
+height: 20%;
+        }
+   
     .lista-menu{
         display: none;
         position: absolute;
