@@ -52,20 +52,7 @@
 
 @media screen and (max-width: 768px)  {
 
-    .grid{
-        background-color: rgba(0,0,0,0.6);    
-        width: 100%;
-        display: grid;
-        grid-template-columns: 20% 80px;      
-        grid-template-areas:
-        "cabecalho cabecalho"
-        "section1 section1"
-        "section1 section1"
-        "section2 section2"
-        "section2 section2"
-        "rodape   rodape" ;
-    }
-    
+
 
     .links__header{      
         display: none;
