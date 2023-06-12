@@ -115,10 +115,9 @@ color: #FFE81F;
 
 @media screen and (max-width: 480px)  {
 
-    *{
-        margin: 0;
-        padding: 0;
-    }
+   body{
+ margin: 0;
+   }
 
     .grid{
         background-color: rgba(0,0,0,0.6);
@@ -126,7 +125,7 @@ color: #FFE81F;
         grid-template-areas: "cabecalho cabecalho"
         "section1 section1"
         "section2 section2"
-        "rodape rodape"
+        "rodape  zrodape"
         ;
 
     }

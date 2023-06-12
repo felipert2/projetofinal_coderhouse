@@ -35,10 +35,11 @@
 
 .cabeçalho__menu-hamburguer{
 
-    background-image: url("../Assets/Menu.svg");
+    background-image: url("../Assets/menu.png");
     display:inline-block ;
     background-repeat: no-repeat;
     margin-top: 1.2em;
+   
     
     
 }
