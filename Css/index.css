@@ -130,7 +130,6 @@ color: #FFE81F;
     
 }
 
-
 @media screen and (max-width: 768px)  {
 
     .grid{
@@ -147,3 +146,18 @@ color: #FFE81F;
         "rodape   " ;
     }
 }
+
+#navegacao__left{
+    display: none;
+}
+
+#navegacao__right{
+    display: none;
+}
+#container__section1{
+    grid-area: section1;
+    display: flex;
+    color: aliceblue;
+   flex-direction: column;
+    
+    }
