@@ -129,17 +129,17 @@ color: #FFE81F;
         padding: 0;
     }
     .grid{
+        width: 100%;
         background-color: rgba(0,0,0,0.6);    
-       
         display: grid;
-        grid-template-columns: 1fr;      
         grid-template-areas:
-        "cabecalho "
+        "cabecalho cabecalho "
         "section1  "
         "section1 "
         "section2 "
         "section2 "
         "rodape   " ;
+        grid-template-columns: 1fr 1fr;
     }
 
 #navegacao__left{
