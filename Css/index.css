@@ -17,8 +17,7 @@ body {
 }
 
 .grid{
-    background-color: rgba(0,0,0,0.6);    
-    width: 100%;
+    background-color: rgba(0,0,0,0.6);        
     display: grid;
     grid-template-columns:  10% auto 10%;    
     grid-template-areas:
@@ -27,8 +26,7 @@ body {
     "esquerdo section1  direito"
     "esquerdo section2  direito"
     "esquerdo section2  direito"
-    "rodape   rodape   rodape"
-    ;
+    "rodape   rodape   rodape" ;
 }
 
 
@@ -66,7 +64,6 @@ grid-area: section1;
 display: flex;
 color: aliceblue;
 justify-content: space-around;
-
 }
 
 #titulo{
@@ -75,8 +72,7 @@ justify-content: space-around;
     font-size: 40px;
     
 }
-#container__texto{
-    
+#container__texto{    
  
     width: 50%;
     padding: 0 2em 0 2em;
@@ -104,12 +100,7 @@ color: #FFE81F;
 }
 
 
-#imagem2{    
-}
 
-.container__form{
-      
-}
 
 
 .rodape__container{
@@ -122,25 +113,24 @@ color: #FFE81F;
 
 
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 480px)  {
 
     *{
         margin: 0;
         padding: 0;
     }
+
     .grid{
-        width: 100%;
-        background-color: rgba(0,0,0,0.6);    
-        display: grid;
-        grid-template-areas:
-        "cabecalho cabecalho "
-        "section1  "
-        "section1 "
-        "section2 "
-        "section2 "
-        "rodape   " ;
+        background-color: rgba(0,0,0,0.6);
         grid-template-columns: 1fr 1fr;
+        grid-template-areas: "cabecalho cabecalho"
+        "section1 section1"
+        "section2 section2"
+        "rodape rodape"
+        ;
+
     }
+  
 
 #navegacao__left{
     display: none;
@@ -156,6 +146,16 @@ color: #FFE81F;
     color: aliceblue;
    flex-direction: column;    
     }
+
+    #container__texto{    
+ 
+        width: 90%;
+      
+       }
+
+       #texto{
+        font-size: 16px;
+       }
 
     #container__contato{
         flex-direction: column;
