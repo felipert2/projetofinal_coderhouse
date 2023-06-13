@@ -1,103 +1,109 @@
-.cabecalho{
+.cabecalho {
     margin-left: .5em;
     grid-area: cabecalho;
-    display: flex;       
+    display: flex;
     margin-bottom: 2em;
     position: relative;
     align-items: center;
-   
 }
 
 
-.links__cabecalho{    
-    
+.links__cabecalho {
+
     color: white;
     text-decoration: none;
-    font-weight:  800;
+    font-weight: 800;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     margin-left: 2vh;
-   
-   
+
 }
 
-.links__header{
+.links__header {
     text-decoration: none;
-    color: white;   
+    color: white;
     padding: 0.8em;
-    
+
 }
 
 .links__header:hover {
-    color:#FFE81F;
+    color: #FFE81F;
 }
 
-.cabeçalho__menu-hamburguer{
+.cabeçalho__menu-hamburguer {
 
     background-image: url("../Assets/menu.png");
-    display:inline-block ;
+    display: inline-block;
     background-repeat: no-repeat;
     margin-top: 1.2em;
-    
-   
-    
-    
 }
 
-.container{
+.container {
     display: none;
 }
 
 
-@media screen and (max-width: 480px)  {
 
- 
 
-    .cabecalho{
+
+@media screen and (max-width: 480px) {
+
+    .cabecalho {
         margin: 0;
-       
-        
     }
 
-    .links__header{      
+    .links__header {
         display: none;
     }
 
-    .container{
+    .container {
         display: block;
-        display: flex;        
+        display: flex;
         align-content: space-between;
     }
-        .container__imagem{
-width: 20%;
-height: 20%;
-        }
-   
-    .lista-menu{
+
+    .container__imagem {
+        width: 20%;
+        height: 20%;
+    }
+
+    .lista-menu {
         display: none;
         position: absolute;
         top: 100%;
-        width: 60vw;
-        }
+        width: 31vw;
+       
+    }
 
-        .container__botao:checked~.lista-menu{
-            display: block;
-        }
+    .lista-menu__item{
+        background-color: aliceblue;
+        padding: .4em 0;
+    }
 
-        .container__botao{
-            display: none;
-        }
-        
+    .lista-menu__link{
+        text-transform: uppercase;
+       
+    
+    }
 
-    .imagem__cabecalho{
+    .container__botao:checked~.lista-menu {
+        display: block;
+    }
+
+    .container__botao {
         display: none;
     }
-    .container__imagem{
-      width: 70%;
+
+
+    .imagem__cabecalho {
+        display: none;
+    }
+
+    .container__imagem {
+        width: 70%;
         padding: 1.3em;
 
     }
-    
-}
 
+}

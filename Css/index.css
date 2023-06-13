@@ -48,10 +48,7 @@ body {
     backface-visibility: hidden;
     transform: scale(1.4, 1.4);
     border: 1px solid #FFE81F
-
-
 }
-
 
 #navegacao__right{
     grid-area:direito;
