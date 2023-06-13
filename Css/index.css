@@ -9,14 +9,16 @@
 }
 
 body {
-    margin: 0 5%;      
+          
     font-family: 'Inter', sans-serif;
     background-image:url("../Assets/papel-de-parede-pixel-parede.jpg");
+    
     color: white;
     font-size: 16px;
 }
 
 .grid{
+    margin: 0 5%;
     background-color: rgba(0,0,0,0.6);        
     display: grid;
     grid-template-columns:  10% auto 10%;    
@@ -41,7 +43,7 @@ body {
 
 .imagens__left{
     width: 100%;
-    /* padding: 0.3em 0; */
+    
 }
 
 .imagens__left:hover{
@@ -92,14 +94,10 @@ color: #FFE81F;
     grid-area: section2;
     display: flex;
     justify-content: space-around;
+    width: 100%;
     
     
 }
-
-
-
-
-
 .rodape__container{
     grid-area: rodape;
     display: flex;
@@ -110,22 +108,24 @@ color: #FFE81F;
 
 
 
-@media screen and (max-width: 480px)  {
+@media screen and (max-width: 821px)  {
 
    body{
  margin: 0;
    }
 
     .grid{
+        margin: 0 5%;
         background-color: rgba(0,0,0,0.6);
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "cabecalho cabecalho"
+        grid-template-areas:
+        "cabecalho cabecalho"
         "section1 section1"
         "section2 section2"
-        "rodape  zrodape"
-        ;
-
+        "rodape  rodape" ;
     }
+
+   
   
 
 #navegacao__left{
@@ -135,25 +135,28 @@ color: #FFE81F;
 #navegacao__right{
     display: none;
 }
-#container__section1{
-    grid-area: section1;
+#container__section1{ 
     display: flex;
     flex-direction: row;
     color: aliceblue;
    flex-direction: column;    
-    }
+ }
 
-    #container__texto{    
- 
-        width: 90%;
-      
-       }
 
-       #texto{
+#texto{
         font-size: 16px;
        }
+
+.paragrafo__index__imagem{
+    width: 80%;
+}
+
 
     #container__contato{
         flex-direction: column;
     }
+    #imagem2{
+       width: 80%;
+
+
 }

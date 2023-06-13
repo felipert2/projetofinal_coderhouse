@@ -9,27 +9,28 @@
 }
 
 body {
-    margin: 0 5%;      
+          
     font-family: 'Inter', sans-serif;
     background-image:url("../Assets/papel-de-parede-pixel-parede.jpg");
     color: white;
     font-size: 16px;
 }
 
-.grid {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
+
+.grid{
+    margin: 0 5%;
+    background-color: rgba(0,0,0,0.6);        
     display: grid;
-    grid-template-columns: 10% auto 10%;
-   
+    grid-template-columns:  10% auto 10%;    
     grid-template-areas:
-        "cabecalho cabecalho cabecalho "
-        "esquerdo section1  direito"
-        "esquerdo section1  direito"
-        "esquerdo section2  direito"
-        "esquerdo section2  direito"
-        "rodape  rodape   rodape";
+    "cabecalho cabecalho cabecalho "
+    "esquerdo section1  direito"
+    "esquerdo section1  direito"
+    "esquerdo section2  direito"
+    "esquerdo section2  direito"
+    "rodape   rodape   rodape" ;
 }
+
 
 
 #navegacao__left {
@@ -73,10 +74,7 @@ body {
     
 
 }
-#imagem2 {  
 
-
-}
 .paragrafo__index__imagem {
     display: flex;
 
@@ -149,35 +147,21 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
-    #grid {
-        grid-template-columns: repeat (2, 1fr);
-        grid-template-rows: repeat(6 , 1fr);
-        grid-template-areas:
+
+    @media screen and (max-width: 821px) {
+
+        .grid{
+            background-color: rgba(0,0,0,0.6);
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
             "cabecalho cabecalho"
             "section1 section1"
-            "section1 section1"
             "section2 section2"
-            "section2 section2"
-            "rodape rodape";
+            "rodape   rodape" ;
+    
+        }
 
-    }
-
-    #section1,
-    #imagem2,
-    .section2,
-    .paragrafo__index__imagem,
-    .container__texto,
-    .container__texto_02,
-    #titulo,
-    .footer-content,
-    #texto__rodape {
-        width: 50%;
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: left
-    }
-
+    
     #navegacao__right {
         display: none;
     }
@@ -185,4 +169,22 @@ footer {
     #navegacao__left {
         display: none;
     }
+#section1{
+    display: flex;
+    flex-direction: column;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem2{
+    width: 80%;
+}
+.paragrafo__index__imagem{
+width: 80%;
+}
+.footer-content{
+    width: 80%;
+}
 }

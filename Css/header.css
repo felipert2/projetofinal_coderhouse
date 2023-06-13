@@ -1,5 +1,6 @@
-.cabecalho {
-    margin-left: .5em;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+.cabecalho {   
     grid-area: cabecalho;
     display: flex;
     margin-bottom: 2em;
@@ -31,60 +32,73 @@
     color: #FFE81F;
 }
 
-.cabeçalho__menu-hamburguer {
 
-    background-image: url("../Assets/menu.png");
-    display: inline-block;
-    background-repeat: no-repeat;
-    margin-top: 1.2em;
-}
-
-.container {
+.container__cabecalho-mobile {
     display: none;
 }
 
 
+@media screen and (max-width: 821px) {
 
+    .grid{
+        background-color: rgba(0,0,0,0.6);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "cabecalho cabecalho"
+        "section1 section1"
+        "section2 section2"
+        "rodape  rodape" ;
 
-
-@media screen and (max-width: 480px) {
-
-    .cabecalho {
-        margin: 0;
     }
+
+    .cabecalho{
+        margin: 1em 0;
+    }
+.container__cabecalho-mobile{   
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cabeçalho__menu-hamburguer {
+
+    background-image: url("../Assets/menu.png");
+    display: inline-block;
+    background-repeat: no-repeat;    
+} 
 
     .links__header {
         display: none;
     }
 
-    .container {
-        display: block;
-        display: flex;
-        align-content: space-between;
-    }
-
-    .container__imagem {
-        width: 20%;
-        height: 20%;
+    .container__imagem-mobile {
+    width: 80%;
     }
 
     .lista-menu {
         display: none;
         position: absolute;
         top: 100%;
-        width: 31vw;
+        width: 40vw;
        
     }
 
     .lista-menu__item{
         background-color: aliceblue;
         padding: .4em 0;
+       text-align: center;
+       list-style: none;
+       background-image: url("../Assets/papel-de-parede-pixel-parede.jpg");
+       background-position: center ;
     }
 
     .lista-menu__link{
-        text-transform: uppercase;
-       
-    
+        text-transform: uppercase; 
+        text-decoration: none; 
+        color: #FFE81F;
+        font-weight: 800;
+        
     }
 
     .container__botao:checked~.lista-menu {
@@ -101,8 +115,8 @@
     }
 
     .container__imagem {
-        width: 70%;
-        padding: 1.3em;
+        width: 100%;
+        padding: 1.3em;        
 
     }
 

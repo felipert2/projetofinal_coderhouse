@@ -12,14 +12,45 @@
 <body>
     <div class="grid">
         <header class="cabecalho">
-            <a class="imagem" href="#"> <img src="./Assets/Logo__Starwars.png" alt="logo Star Wars"></a><!--logo-->
-
+            <div class="imagem__cabecalho">
+                <a href="./index.html"> <img src="./Assets/Logo__Starwars.png" alt="logo Star Wars"></a><!--logo-->
+            </div>
             <div class="links__cabecalho">
                 <a class="links__header" href="./index.html">Início</a>
-            <a class="links__header" href="./mandalorian.html">Mandalorian</a>
-            <a class="links__header" href="./jedi.html">Jedi</a>
-            <a class="links__header" href="./sith.html">Sith</a>
-            <a class="links__header" href="./rebeldes.html">Rebelde</a>
+                <a class="links__header" href="./mandalorian.html">Mandalorian</a>
+                <a class="links__header" href="./jedi.html">Jedi</a>
+                <a class="links__header" href="./sith.html">Sith</a>
+                <a class="links__header" href="./rebeldes.html">Rebelde</a>
+            </div>
+
+
+            <div class="container__cabecalho-mobile">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+
+                <ul class="lista-menu">
+
+                    <li class="lista-menu__item">
+                        <a href="./index.html" class="lista-menu__link">Início</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./mandalorian.html" class="lista-menu__link">Mandalorian</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./jedi.htm" class="lista-menu__link">Jedi</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./sith.html" class="lista-menu__link">Sith</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="./rebeldes.html" class="lista-menu__link">Rebeldes </a>
+                    </li>
+                </ul>
+                <img src="./Assets/logo-mobile.webp" alt="logo Star Wars" class="container__imagem-mobile">
+
+
             </div>
 
         </header>
