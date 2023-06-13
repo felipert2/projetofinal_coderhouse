@@ -17,30 +17,21 @@ body {
 }
 .grid {
     display: grid;
-    background-color: rgba(0,0,0,0.6);      
-    width: 100%;
+    background-color: rgba(0,0,0,0.6);        
     grid-template-columns: ( 10%  auto 10%);      
     grid-template-areas:
     "cabecalho cabecalho  cabecalho "
-    "navegação conteudoTexto  conteudoLateral"
-    "navegação conteudoTexto  conteudoLateral"
-    "navegação conteudoTexto conteudoLateral"
-     "rodape rodape rodape  "
-    ;
+    "navegacao conteudoTexto  conteudoLateral"
+    "navegacao conteudoTexto  conteudoLateral"
+    "navegacao conteudoTexto conteudoLateral"
+     "rodape rodape rodape " ;
     }
 
-
-
-
-#navegação{
-    grid-area: navegacao;
-    width: 100%;
-   
-    
+.navegação{
+    grid-area: navegacao;      
 }
 .Links__nav{
     text-decoration: none;
-
 }
 
 .navegacao__lista{
@@ -75,3 +66,30 @@ text-align: center;
 padding-top: 5em;
 
 }
+
+@media screen and (max-width: 821px) {
+
+    .grid {
+        display: grid;
+        background-color: rgba(0,0,0,0.6);        
+        grid-template-columns: ( 1fr 1fr);      
+        grid-template-areas:
+        "cabecalho cabecalho  "
+        " conteudoTexto conteudoTexto "
+        " conteudoTexto conteudoTexto"
+        "rodape rodape ";
+        }
+
+        .paragrafo_1{
+            flex-direction: column;
+        }
+    
+
+    .conteudoLateral{
+        display: none;
+    }
+
+        .navegação{
+            display: none;
+        }
+    }

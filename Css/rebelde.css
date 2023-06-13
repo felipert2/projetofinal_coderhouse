@@ -121,3 +121,22 @@ margin-right: auto;
     text-align: center;
    
 }
+
+
+@media screen and (max-width: 821px)  {
+
+    .grid{
+        background-color: rgba(0,0,0,0.6);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "cabecalho cabecalho"
+        "section1 section1"
+        "section2 section2"
+        "rodape  rodape" ;
+    }
+    
+
+    .container__imagem-mobile {
+        width: 80%;
+    }
+}

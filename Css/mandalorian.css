@@ -14,6 +14,8 @@ body {
     background-image:url("../Assets/papel-de-parede-pixel-parede.jpg");
     color: white;
     font-size: 16px;
+    background-size: 90%;
+    background-size: inherit;
 }
 
 
@@ -104,62 +106,32 @@ body {
 footer {
 
     height: auto;
-    width: 100vw;
+    
     color: #fff;
 }
 
-.footer-content {
+
+.rodape__container{
     grid-area: rodape;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
-}
-
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-.socials {
-    list-style: none;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.socials li {
-    margin: 0 10px;
-}
-
-.socials li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#texto__rodape {
-    text-align: center;
-    display: flex;
-    align-items: center;
+    padding-top: 8em;
 }
 
 
-    @media screen and (max-width: 821px) {
 
-        .grid{
-            background-color: rgba(0,0,0,0.6);
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "cabecalho cabecalho"
-            "section1 section1"
-            "section2 section2"
-            "rodape   rodape" ;
-    
-        }
+    @media screen and (max-width: 821px) { 
+
+            .grid{
+                background-color: rgba(0,0,0,0.6);
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                "cabecalho cabecalho"
+                "section1 section1"
+                "section2 section2"
+                "rodape  rodape" ;
+            }
 
     
     #navegacao__right {
@@ -173,14 +145,15 @@ footer {
     display: flex;
     flex-direction: column;
 }
+#imagem1{
+    width: 80%;
+}
 .section2 {
     display: flex;
     flex-direction: column;
 }
 
-#imagem2{
-    width: 80%;
-}
+
 .paragrafo__index__imagem{
 width: 80%;
 }
