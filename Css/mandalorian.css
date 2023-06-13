@@ -103,12 +103,6 @@ body {
    
 }
 
-footer {
-
-    height: auto;
-    
-    color: #fff;
-}
 
 
 .rodape__container{
@@ -141,8 +135,8 @@ footer {
     #navegacao__left {
         display: none;
     }
-#section1{
-    display: flex;
+#container__section1{
+    
     flex-direction: column;
 }
 #imagem1{
@@ -158,6 +152,7 @@ footer {
 width: 80%;
 }
 .footer-content{
-    width: 80%;
-}
+    
+        padding-top: 1em;
+    }
 }

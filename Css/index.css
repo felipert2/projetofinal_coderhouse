@@ -137,27 +137,45 @@ color: #FFE81F;
 }
 #container__section1{ 
     display: flex;
-    flex-direction: row;
+    width: 100%;   
     color: aliceblue;
-   flex-direction: column;    
+   flex-direction: column;   
+  
+ }
+
+ #container__texto{
+    width: 100%;
+    padding: 0; 
+   text-align: center;  
+ }
+
+ #titulo{
+    font-size: 1.5em;
+    padding-bottom: 0;
  }
 
 
 #texto{
         font-size: 16px;
+        padding: 1em;
+       }
+
+       .container__imagem1{      
+        width: 100%;
+       text-align: center;
        }
 
 .paragrafo__index__imagem{
-    width: 80%;
+    width: 100%;
 }
 
 
     #container__contato{
-        flex-direction: column;
-    }
-    #imagem2{
-       width: 80%;
-
-
+display: none
 }
+
+.rodape__container{
+    padding-top: 1em;
+}
+
 }
