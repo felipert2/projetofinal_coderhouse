@@ -1,6 +1,9 @@
-.carrossel{
+.carrosel{
     grid-area: carrossel;
     display: block;
+    position: relative;
+    margin-bottom: 1em;
+    z-index: 1;
    }
 
    .carrossel__titulo {
@@ -9,20 +12,27 @@
     text-align: center;
     text-transform: uppercase;   
     font-weight: 800;
-    margin-bottom: 0.5em;
-  
+    margin-bottom: 0.5em;  
 }
 
 .swiper-slide img {
     width: 100%;
+    position: relative;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-    
+    display: none;
 }
 
 .swiper-pagination {
-    position: initial;
-    margin: .5em 0;
+    position:absolute;
+    margin: 0 0;
+    color: aliceblue;
 }
+
+.swiper-pagination-bullet{   
+    background-color: yellow;
+}
+
+

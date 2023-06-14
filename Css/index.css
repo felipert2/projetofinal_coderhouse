@@ -134,6 +134,7 @@ color: #FFE81F;
     .carrosel{
         display: block;
         grid-area: carrossel;
+        position: relative;
     }
 
 #navegacao__left{
@@ -143,8 +144,6 @@ color: #FFE81F;
 #navegacao__right{
     display: none;
 }
-
-
 
 #container__section1{ 
     display: flex;

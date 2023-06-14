@@ -45,6 +45,7 @@
     .cabecalho{
         margin: 1em 0;
     }
+
 .container__cabecalho-mobile{   
     display: block;
     display: flex;
@@ -58,6 +59,7 @@
     background-image: url("../Assets/menu.png");
     display: inline-block;
     background-repeat: no-repeat;    
+    
 } 
 
     .links__header {
@@ -71,7 +73,9 @@
 
     .lista-menu {
         display: none;
+    
         position: absolute;
+        z-index: 9999;
         top: 100%;
         width: 40vw;
        
