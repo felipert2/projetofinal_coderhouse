@@ -141,6 +141,7 @@ justify-content: space-between;
      .container__texto{
         width: 100%;
         text-align: center;
+        padding: 0;
      }
 .titulo1{
         padding-bottom: 0;
@@ -153,6 +154,7 @@ justify-content: space-between;
      .paragrafo__imagem{
         width: 100%;
         margin-bottom: 1em;
+        
      }
      .section2{
         flex-direction: column-reverse;
