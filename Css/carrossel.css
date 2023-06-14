@@ -1,0 +1,28 @@
+.carrossel{
+    grid-area: carrossel;
+    display: block;
+   }
+
+   .carrossel__titulo {
+  
+
+    text-align: center;
+    text-transform: uppercase;   
+    font-weight: 800;
+    margin-bottom: 0.5em;
+  
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}

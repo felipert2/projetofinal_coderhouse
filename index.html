@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./Css/index.css">
     <title>Início</title>
 </head>
@@ -53,12 +53,52 @@
                         <a href="./rebeldes.html" class="lista-menu__link">Rebeldes </a>
                     </li>
                 </ul>
-                <a href="./index.html"><img src="./Assets/logo-mobile.webp" alt="logo Star Wars" class="container__imagem-mobile"></a>
+                <a href="./index.html"><img src="./Assets/logo-mobile.webp" alt="logo Star Wars"
+                        class="container__imagem-mobile"></a>
 
 
             </div>
 
         </header>
+
+
+        <section class="carrosel">
+            <h2 class="carrossel__titulo">FILMES: </h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./Assets/episodio1.jpg"
+                                alt="capa do filme episodio 1 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio2.jpg"
+                                alt="capa do filme episodio 2 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio3.jpg"
+                                alt="capa do filme episodio 3 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio4.jpg"
+                                alt="capa do filme episodio 4 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio5.jpg"
+                                alt="capa do filme episodio 5 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio6.jpg"
+                                alt="capa do filme episodio 6 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio7.jpg"
+                                alt="capa do filme episodio 7 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio8.jpg"
+                                alt="capa do filme episodio 8 de star wars"></div>
+                        <div class="swiper-slide"><img src="./Assets/episodio9.jpg"
+                                alt="capa do filme episodio 9 de star wars"></div>
+
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+        </section>
 
         <nav id="navegacao__right">
             <a class="links__header" href="./index.html">Sobre</a>
@@ -165,8 +205,14 @@
 
     </div><!-- Final Grid -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-
+    <script> 
+    const swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      });
+      </script>
 
 
 </body>

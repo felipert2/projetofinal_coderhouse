@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 @import url("./header.css");
+@import url("./carrossel.css");
 
 *{
     margin: 0;
@@ -107,6 +108,10 @@ color: #FFE81F;
 }
 
 
+.carrosel{
+    display: none;
+}
+
 
 @media screen and (max-width: 821px)  {
 
@@ -120,13 +125,16 @@ color: #FFE81F;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "cabecalho cabecalho"
+         "carrossel carrossel "
         "section1 section1"
         "section2 section2"
         "rodape  rodape" ;
     }
 
-   
-  
+    .carrosel{
+        display: block;
+        grid-area: carrossel;
+    }
 
 #navegacao__left{
     display: none;
@@ -135,6 +143,9 @@ color: #FFE81F;
 #navegacao__right{
     display: none;
 }
+
+
+
 #container__section1{ 
     display: flex;
     width: 100%;   
