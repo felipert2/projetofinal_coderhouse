@@ -62,6 +62,15 @@
     
 } 
 
+.container__botao:checked ~ .container__label > .cabeçalho__menu-hamburguer{
+    background-image: url("../Assets/menu2.png");
+
+}
+
+.container__label{
+
+}
+
     .links__header {
         display: none;
     }
