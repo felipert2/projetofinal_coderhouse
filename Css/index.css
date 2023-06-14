@@ -121,7 +121,7 @@ color: #FFE81F;
 .carrosel{
     display: none;
 }
-
+/* Resolução Notebook */
 @media screen and (min-width: 822px) and (max-width: 1600px) {
 
 
@@ -144,18 +144,34 @@ color: #FFE81F;
         font-size: 19px;
     }
 
-    .container__imagem1{
-             
+    .paragrafo__index__imagem1{
+        padding: 0;        
     }
 
-    .paragrafo__index__imagem1{
-        padding: 0;
-        
+    #container__contato{
+        margin: 0;
+        padding: 0 3.5em ;
     }
-    
+
+
+    .paragrafo__index__imagem2{
+        width: 50%;
+    }
+
+    .imagem2{
+        width: 100%;
+    }
+
+    .container__formulario{
+        width: 50%;
+    }
+
+    .form__texto{
+       width: 100%;
+    }
 }
 
-
+/* resolução celular */
 @media screen and (max-width: 821px)  {
 
    body{
@@ -192,7 +208,8 @@ color: #FFE81F;
     display: flex;
     width: 100%;   
     color: aliceblue;
-   flex-direction: column;   
+   flex-direction: column;  
+   margin: 0; 
   
  }
 
@@ -218,8 +235,9 @@ color: #FFE81F;
        text-align: center;
        }
 
-.paragrafo__index__imagem{
+.paragrafo__index__imagem1{
     width: 100%;
+    padding: 0;
 }
 
 
