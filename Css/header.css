@@ -38,6 +38,14 @@
 }
 
 
+@media screen and (min-width: 822px) and (max-width: 1600px) {
+    
+    .links__header{
+        padding: 0.3em;
+    }
+
+}
+
 @media screen and (max-width: 821px) {
 
 
@@ -45,6 +53,8 @@
     .cabecalho{
         margin: 1em 0;
     }
+
+ 
 
 .container__cabecalho-mobile{   
     display: block;
