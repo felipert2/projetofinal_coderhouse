@@ -3,7 +3,7 @@
 .cabecalho {   
     grid-area: cabecalho;
     display: flex;
-    margin-bottom: 2em;
+    margin: 2em 0;
     position: relative;
     align-items: center;
 }
@@ -17,7 +17,7 @@
     font-size: 40px;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
-    margin-left: 2vh;
+    margin-left: 3vh;
 
 }
 
@@ -41,7 +41,7 @@
 @media screen and (min-width: 822px) and (max-width: 1600px) {
     
     .links__header{
-        padding: 0.3em;
+        padding: 0.5em;
     }
 
 }
