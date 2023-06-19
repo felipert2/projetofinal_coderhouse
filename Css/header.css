@@ -29,7 +29,7 @@
 }
 
 .links__header:hover {
-    color: #FFE81F;
+    color: #F6DA33;
 }
 
 
@@ -112,7 +112,7 @@
     .lista-menu__link{
         text-transform: uppercase; 
         text-decoration: none; 
-        color: #FFE81F;
+        color: #F6DA33;
         font-weight: 800;
         
     }
