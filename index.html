@@ -147,24 +147,26 @@
             <div class="paragrafo__index__imagem2">
                 <img class="imagem2" src="./Assets/contato 3.png" alt="Stormtrooper com o telefone na mão">
             </div>
-          
-          
-            <div class="container__formulario">
-                <fieldset class="form__texto">               
-           
-                        <h2>Contate-nos</h2>
-                 
-                
-                        <h4>Envie suas duvidas sobre o universo de Star Wars</h4>s
-                   
-                  <input type="text">
-                    E-mail:<input>
-                    Telefone:<input>
-                    Mensagem:<input>
-              
-                </fieldset>
 
+
+
+
+            <form name="formulario__container">
+
+                <h1 class="Formulario__titulo">Contato:</h1>
+
+                <div class="formulario__input">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nomeid" required="required" name="nome" />             
+                    <label for="email">Email:</label>
+                    <input type="email" id="emailid" placeholder="email@mail.com" name="email" />
+                
+
+                <textarea placeholder="Deixe sua pergunta"></textarea>
+
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
             </div>
+            </form>
         </section>
 
 
@@ -215,6 +217,7 @@
 
 
     </div><!-- Final Grid -->
+    <script src="./formulario.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

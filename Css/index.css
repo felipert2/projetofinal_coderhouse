@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 @import url("./header.css");
 @import url("./carrossel.css");
+@import url("./formulario.css");
 
 *{
     margin: 0;
@@ -94,17 +95,18 @@ color: #FFE81F;
 #container__contato{
     grid-area: section2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
     margin: 0 5em;  
 }
 
 .paragrafo__index__imagem2{
-   
+    width: 50%;
+  
 }
 
-#imagem2{
-   width: 90%;
-   height: 90%;
+.imagem2{
+width: 100%;
+
 }
 
 

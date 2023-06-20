@@ -1,0 +1,68 @@
+.formulario__container {
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+    font-size: 15px;
+    background-color: transparent;  
+    width: 100%;    
+}
+
+.Formulario__titulo {   
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 0.5em;
+}
+
+.formulario__input{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 7px;
+    color:yellow;     
+    border-radius: 5px;  
+    border: 1px solid white ;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+input:hover, textarea:hover,  textarea:focus, enviar:hover {
+    border-color: yellow;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: transparent;  
+}
+
+.enviar {
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid white;
+    color: #FFFFFF;    
+}
+
+textarea {
+    width: 400px;
+    height: 90px;
+    line-height: 20px;
+    max-width: 400px;
+    color: #FFFF00;
+    margin: 0.8em 0;
+    font-weight: bold;
+}
+
+ label {    
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#nomeid{
+    margin-bottom: 0.5em;
+}
