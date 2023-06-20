@@ -24,13 +24,13 @@ input, textarea {
     width: 200px;
     padding: 7px;
     color: #F6DA33 ;     
-    border-radius: 5px;  
+    border-radius: 5px ;  
     border: 1px solid white ;
     background-color: transparent;
     font-weight: bold;
 }
 
-input:hover, textarea:hover,  textarea:focus, enviar:hover {
+input:hover, textarea:hover,  textarea:focus, enviar:focus {
     border-color: #F6DA33 ;
     box-shadow: 5px 0px 9px #F6DA33 ;
     background-color: transparent;  
@@ -65,4 +65,26 @@ textarea {
 
 #nomeid{
     margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 821px)  {
+
+}
+
+textarea{
+    width: 300px;
+    height: 70px;
+    margin: 0.4em 0;
+}
+
+.Formulario__titulo {       
+    font-size: 19px;
+    margin-bottom: 0.2em;
+}
+
+#nomeid{
+    margin-bottom: 0.2em;
+    width: 200px;
+    padding: 5px;
+
 }
