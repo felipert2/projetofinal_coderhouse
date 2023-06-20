@@ -3,7 +3,7 @@ function Enviar() {
     var nome = document.getElementById("nomeid");
 
     if (nome.value != "") {
-        alert('Obrigado  ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+        alert('Obrigado ' + nome.value + ' seus dados foram encaminhados com sucesso');
     }
 
 }
