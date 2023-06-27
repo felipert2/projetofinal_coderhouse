@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url("./header.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin: 0 5%;      
+    font-family: 'Inter', sans-serif;
+    background-image:url(../Assets/papel-de-parede-pixel-parede.jpg);
+    color: white;
+    font-size: 16px;
+}
+.grid{
+    background-color: rgba(0,0,0,0.6);     
+    width: 100%;
+    display: grid;
+    grid-template-columns:  10% auto 10%;
+
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho "
+    "esquerdo section1  direito"
+    "esquerdo section1  direito"
+    "esquerdo section2  direito"
+    "esquerdo section2  direito"
+    "rodape   rodape   rodape";
+
+}
+
+
+
+
+
+
+#container__section1{
+    grid-area: section1;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    }
+
+#titulo{
+    text-transform: uppercase;
+    padding-bottom: 1.2em;
+    
+}
+.container__texto{
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+    padding-right: 50px;
+}
+
+.paragrafo__index__imagem{   
+    margin: auto;
+    align-items: flex-start;
+   
+}
+
+
+.container__texto_02{
+  display: flex;
+  flex-direction: column;
+  width: 50%;    
+}
+
+
+
+
+
+
+
+.rodape__container{
+    grid-area: rodape;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+}
+
+#texto__rodape{
+    text-align: center;
+   
+}
+
+
+
+@media screen and (max-width: 821px)  {
+
+    .grid{
+        background-color: rgba(0,0,0,0.6);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "cabecalho cabecalho"
+        "section1 section1"
+        "section2 section2"
+        "rodape  rodape" ;
+    }
+    
+
+    .container__imagem-mobile {
+        width: 80%;
+    }
+    #container__section1{ 
+       color: aliceblue;
+       flex-direction: column;    
+     }
+     .container__texto{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+     }
+.titulo1{
+        padding-bottom: 0;
+     }
+
+     .texto1{
+        margin: 1em 0;
+     }
+
+     .paragrafo__imagem{
+        width: 100%;
+        margin-bottom: 1em;
+        
+     }
+     .section2{
+        flex-direction: column-reverse;
+     }
+
+     .container__texto_02{
+        width: 100%;
+        text-align: center;
+     }
+
+     .paragrafo__02__titulo{
+        padding: 0;
+       
+     }
+
+     #imagem2{
+        width: 100%;
+     }
+
+     .rodape__container{
+        padding-top: 1em;
+    }
+
+
+    
+}
