@@ -10,7 +10,7 @@
 body {
 
     font-family: 'Inter', sans-serif;
-    background-image: url("Assets/papel-de-parede-pixel-parede.jpg");
+    background-image: url("../Assets/papel-de-parede-pixel-parede.jpg");
     color: white;
     font-size: 16px;
     background-size: 90%;
@@ -147,8 +147,17 @@ body {
         flex-direction: column;
     }
 
+    .container__texto{
+        width: 100%;
+    }
+
+    .paragrafo_1_texto{
+        margin: 1em 0;
+    }
+
     #imagem1 {
-        width: 80%;
+        width: 100%;
+        margin-bottom: 1em;
     }
 
     .section1 {
@@ -161,12 +170,20 @@ body {
         flex-direction: column;
     }
 
+    .container__texto_02{
+        width: 100%;
+    }
+
+    .paragrafo_2_texto{
+        margin: 1em 0;
+    }
+
     .paragrafo__index__imagem {
-        width: 80%;
+        width: 100%;
     }
 
-    .footer-content {
-
-        padding-top: 1em;
+    .rodape__container{
+        padding-top: 4em;
     }
+
 }
