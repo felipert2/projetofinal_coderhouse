@@ -27,11 +27,11 @@ input, textarea {
     color: #F6DA33 ;     
     border-radius: 5px ;  
     border: 1px solid white ;
-    background-color: transparent;
+    background-color: transparent !important;
     font-weight: bold;
 }
 
-input:hover, textarea:hover,  textarea:focus, enviar:focus {
+input:hover, textarea:hover,  textarea:focus, .enviar:focus, input:focus {
     border-color: #F6DA33 ;
     box-shadow: 5px 0px 9px #F6DA33 ;
     background-color: transparent;  
@@ -48,6 +48,8 @@ input:hover, textarea:hover,  textarea:focus, enviar:focus {
     border: 1px solid white;
     color: #FFFFFF;    
 }
+
+
 
 textarea {
     width: 400px;
