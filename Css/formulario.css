@@ -27,7 +27,7 @@ input, textarea {
     color: #F6DA33 ;     
     border-radius: 5px ;  
     border: 1px solid white ;
-    background-color: transparent !important;
+    background-color: transparent ;
     font-weight: bold;
 }
 
@@ -35,6 +35,12 @@ input:hover, textarea:hover,  textarea:focus, .enviar:focus, input:focus {
     border-color: #F6DA33 ;
     box-shadow: 5px 0px 9px #F6DA33 ;
     background-color: transparent;  
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus{
+  -webkit-box-shadow: 0 0 0 30px black inset !important;
+  -webkit-text-fill-color: #F6DA33 !important;
 }
 
 .enviar {
