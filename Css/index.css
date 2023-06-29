@@ -59,6 +59,28 @@ body {
     flex-direction: column;    
 }
 
+.lista-nav__item{
+    list-style-type:none;
+    padding: 0.7em 0;
+}
+
+.navegacao__right__titulo{
+    font-size:16px ;
+    padding-bottom: 0.8em;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;   
+}
+
+.lista-menu__link:hover{
+    color: #F6DA33;
+    text-transform: uppercase;
+    background-color:  grey;
+}
+
 #container__section1{
 grid-area: section1;
 display: flex;
