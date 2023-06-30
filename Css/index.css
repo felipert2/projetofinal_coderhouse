@@ -155,6 +155,10 @@ width: 100%;
 .carrosel{
     display: none;
 }
+    .carrosel2{
+        display: none;
+    }
+
 /* Resolução Notebook */
 @media screen and (min-width: 822px) and (max-width: 1600px) {
 
@@ -229,6 +233,7 @@ width: 100%;
         grid-template-areas:
         "cabecalho cabecalho"
          "carrossel carrossel "
+         "carrossel2 carrossel2 "
         "section1 section1"
         "section2 section2"
         "rodape  rodape" ;
@@ -238,6 +243,13 @@ width: 100%;
         display: block;
         grid-area: carrossel;
         position: relative;
+    }
+
+    .carrosel2{
+            display: block;    
+            grid-area: carrossel2;
+            position: relative;
+        }
     }
 
 #navegacao__left{
@@ -293,4 +305,3 @@ display: none
     padding-top: 1em;
 }
 
-}
