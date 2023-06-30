@@ -6,6 +6,7 @@
     margin: 2em 0;
     position: relative;
     align-items: center;
+    margin-left: 220px;
 }
 
 
@@ -24,7 +25,7 @@
 .links__header {
     text-decoration: none;
     color: white;
-    padding: 0 0.8em;
+    padding: 0 0.6em;
 
 }
 
