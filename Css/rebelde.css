@@ -57,6 +57,9 @@ body {
     text-decoration: none;  
 color: #F6DA33; 
 }
+#linktexto:hover{
+    color: yellow;
+    }
 
 .container__section1{
     grid-area: section1;
@@ -211,7 +214,7 @@ font-size: 24px;
 
 @media screen and (min-width: 822px) and (max-width: 1600px) {
 
-    .titulo1, .paragrafo__02__titulo, .paragrafo__03__titulo,.paragrafo__04__titulo, .paragrafo__05__titulo{
+    .titulo1, .paragrafo__02__titulo, .paragrafo__03__titulo{
 
         font-size: 32px;
         padding: 0;

@@ -117,6 +117,11 @@ text-decoration: none;
 color: #F6DA33;  
 }
 
+#linktexto:hover{
+
+color: yellow;
+}
+
 #container__contato{
     grid-area: section2;
     display: flex;
@@ -180,6 +185,8 @@ width: 100%;
     #texto{
         font-size: 19px;
     }
+
+
 
     .paragrafo__index__imagem1{
         padding: 0;        

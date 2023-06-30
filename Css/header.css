@@ -29,8 +29,19 @@
 
 }
 
-.links__header:hover {
-    color: #F6DA33;
+.links__header:hover, .links__header:focus{
+
+    border-radius: 10px;
+   background:  #F6DA33;
+    box-shadow: 0 0 5px  #F6DA33, 0 0 25px  #F6DA33, 0 0 50px #F6DA33, 0 0 200px  #F6DA33;
+    color: black;
+}
+
+a#red:hover{
+    border-radius: 10px;
+   background:  red;
+    box-shadow: 0 0 5px  red, 0 0 25px  red, 0 0 50px red, 0 0 200px red;
+    color: black;
 }
 
 
