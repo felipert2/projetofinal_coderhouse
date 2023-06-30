@@ -27,11 +27,23 @@ body {
     "esquerdo section1  direito"
     "esquerdo section2  direito"
     "esquerdo section2  direito"
+    "esquerdo section3  direito"
+    "esquerdo section3  direito"
+    "esquerdo section4  direito"
+    "esquerdo section4  direito"
+    "esquerdo section5  direito"
+    "esquerdo section5  direito"
     "rodape   rodape   rodape";
 
 }
 
-
+.cabecalho{
+    margin-left: 200px;
+    
+}
+.links__header{
+    padding: 0 0.6em;
+}
 
 
 #navegacao__left{
@@ -48,46 +60,34 @@ body {
     
 }
 
-#container__section1{
+.container__section1{
     grid-area: section1;
     display: flex;
     color: aliceblue;
-    justify-content: space-around;
+   justify-content: space-around;
     }
 
-#titulo{
+.titulo1{
     text-transform: uppercase;
-    padding-bottom: 1.2em;
-    
+    padding-bottom: 1em;
+    font-size: 40px;    
 }
+
 .container__texto{
     display: flex;
     flex-direction: column;    
-    width: 50%;
-    padding-right: 50px;
+    width: 50%;  
 }
 
-.paragrafo__index__imagem{   
-    margin: auto;
-    align-items: flex-start;
-   
+.texto1{
+    font-size: 24px;
 }
 
 .section2{
 grid-area: section2;
 display: flex;
-color: aliceblue;
-align-items: flex-start;
-
-justify-content: space-between;
-
-}
-
-
-#imagem2{    
-    display: flex;
-   
-    
+justify-content: space-around;
+padding-top: 3em;
 }
 
 .container__texto_02{
@@ -98,24 +98,116 @@ justify-content: space-between;
 
 .paragrafo__02__titulo{
     text-transform: uppercase;
-    padding-bottom: 1.2em;
+    padding-bottom: 1em;
+    font-size: 40px;
 }
 
+.texto2{
+font-size: 24px;
+}
 
+.section3{
+    grid-area: section3;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    }
+    
+    .container__texto_03{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      
+    }
+    
+    .paragrafo__03__titulo{
+        text-transform: uppercase;
+        padding-bottom: 1em;
+        font-size: 40px;
+    }
+    
+    .texto3{
+    font-size: 24px;
 
+    }
 
+    #imagem3{
+        height: 550px;
+    }
+    
+    .section4{
+        grid-area: section4;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3em;
+        }
+        
+        .container__texto_04{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          
+        }
+        
+        .paragrafo__04__titulo{
+            text-transform: uppercase;
+            padding-bottom: 1em;
+            font-size: 40px;
+        }
+        
+        .texto4{
+        font-size: 24px;
+    
+        }
+    
+        #imagem4{
+          width: 100%;
+          height: 100%;
+        }
+
+        .section5{
+            grid-area: section5;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 3em;
+            }
+            
+            .container__texto_05{
+              display: flex;
+              flex-direction: column;
+              width: 50%;
+              
+            }
+            
+            .paragrafo__05__titulo{
+                text-transform: uppercase;
+                padding-bottom: 1em;
+                font-size: 40px;
+            }
+            
+            .texto5{
+            font-size: 24px;
+        
+            }
+        
+            #imagem5{
+        width: 100%;
+        height: 100%;
+            }
+        
+           
 .rodape__container{
     grid-area: rodape;
+    padding-top: 3em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 8em;
 }
 
 #texto__rodape{
-    text-align: center;
-   
+    color: white;
 }
+
 
 
 @media screen and (max-width: 821px)  {
@@ -127,6 +219,7 @@ justify-content: space-between;
         "cabecalho cabecalho"
         "section1 section1"
         "section2 section2"
+        "section3 section3"
         "rodape  rodape" ;
     }
     
