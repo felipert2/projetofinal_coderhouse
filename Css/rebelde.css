@@ -208,6 +208,23 @@ font-size: 24px;
 
 
 
+
+@media screen and (min-width: 822px) and (max-width: 1600px) {
+
+    .titulo1, .paragrafo__02__titulo, .paragrafo__03__titulo,.paragrafo__04__titulo, .paragrafo__05__titulo{
+
+        font-size: 32px;
+        padding: 0;
+        padding-bottom: 1em;
+    }
+
+    .texto1, .texto2, .texto3, .texto4, .texto5{
+        font-size: 20px;
+    }
+}
+
+
+
 @media screen and (max-width: 821px)  {
 
     .grid{

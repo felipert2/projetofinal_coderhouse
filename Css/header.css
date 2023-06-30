@@ -50,27 +50,16 @@
     }
 
     
-.links__cabecalho {
-
-  
-    font-size: 32px;
-
-   
-
+.links__cabecalho {  
+    font-size: 32px;   
 }
-
-
 }
 
 @media screen and (max-width: 821px) {
 
-
-
     .cabecalho{
         margin: 1em 0;
     }
-
- 
 
 .container__cabecalho-mobile{   
     display: block;
