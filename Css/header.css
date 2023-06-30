@@ -41,9 +41,24 @@
 
 @media screen and (min-width: 822px) and (max-width: 1600px) {
     
-    .links__header{
-        padding: 0.5em;
+    .cabecalho{
+        margin-left: 190px;
     }
+    
+    .links__header{
+        padding: 0.4em;
+    }
+
+    
+.links__cabecalho {
+
+  
+    font-size: 32px;
+
+   
+
+}
+
 
 }
 
