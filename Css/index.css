@@ -77,8 +77,8 @@ body {
 
 .lista-menu__link:hover{
     color: #F6DA33;
-    text-transform: uppercase;
-    background-color:  grey;
+    
+ 
 }
 
 #container__section1{
@@ -154,6 +154,14 @@ width: 100%;
 @media screen and (min-width: 822px) and (max-width: 1600px) {
 
 
+    
+  .lista-nav__item{
+    padding: 0.5em 0;
+  }   
+    
+    
+    
+    
     #container__section1{
         margin: 0;
         padding: 0 3.5em ;
