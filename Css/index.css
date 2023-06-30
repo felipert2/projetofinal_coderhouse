@@ -252,6 +252,10 @@ width: 100%;
         }
     }
 
+    .lista-menu__link{
+        color: #F6DA33;
+    }
+
 #navegacao__left{
     display: none;
 }
