@@ -10,7 +10,7 @@
     grid-area: carrossel2;
     display: block;
     position: relative;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     
    }
    .carrossel__titulo {  
@@ -29,6 +29,11 @@
     margin-bottom: 0.5em;  
 }
 
+.carrosel__nome__personagem{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .swiper-slide img {
     width: 100%;
     position: relative;
@@ -40,14 +45,14 @@
 }
 
 .swiper-pagination {
-    position: absolute;
-    margin: 0 0;
-  
+    position: absolute; 
 }
 
 .swiper-pagination-bullet{   
 background-color:  #F6DA33;
-
 }
 
+#bulets{
+    margin-bottom: 22px;
+}
 
