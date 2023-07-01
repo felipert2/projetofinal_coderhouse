@@ -26,6 +26,7 @@ body {
     grid-template-columns:  10% auto 10%;    
     grid-template-areas:
     "cabecalho cabecalho cabecalho "
+    
     "esquerdo section1  direito"
     "esquerdo section1  direito"
     "esquerdo section2  direito"
@@ -151,9 +152,12 @@ width: 100%;
 }
 
 
+
 .carrosel{
+    grid-area: carrossel;
     display: none;
 }
+
     .carrosel2{
         display: none;
     }
