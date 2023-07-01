@@ -76,8 +76,7 @@ body {
 }
 
 .lista-menu__link:hover{
-    color: #F6DA33;
-    
+    color: #F6DA33;    
  
 }
 
@@ -87,6 +86,7 @@ display: flex;
 color: aliceblue;
 justify-content: space-between;
 margin: 0 5em;
+
 
 
 }
@@ -108,7 +108,6 @@ margin: 0 5em;
 .paragrafo__index__imagem1{
     padding: 2em 0;   
 }
-
 
 
 
@@ -166,9 +165,7 @@ width: 100%;
     
   .lista-nav__item{
     padding: 0.5em 0;
-  }   
-    
-    
+  }      
     
     
     #container__section1{
@@ -250,7 +247,7 @@ width: 100%;
             grid-area: carrossel2;
             position: relative;
         }
-    }
+    
 
     .lista-menu__link{
         color: #F6DA33;
@@ -308,3 +305,4 @@ display: none
     padding-top: 1em;
 }
 
+}

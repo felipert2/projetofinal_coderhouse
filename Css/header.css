@@ -26,7 +26,6 @@
     text-decoration: none;
     color: white;
     padding: 0 0.6em;
-
 }
 
 .links__header:hover, .links__header:focus{
@@ -107,9 +106,8 @@ a#red:hover{
     }
 
     .lista-menu {
-        display: none;
-    
-        position: absolute;
+         display: none;
+         position: absolute;
         z-index: 9999;
         top: 100%;
         width: 40vw;
