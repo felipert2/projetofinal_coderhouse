@@ -238,6 +238,8 @@ font-size: 24px;
         "section1 section1"
         "section2 section2"
         "section3 section3"
+        "section4 section4"
+        "section5 section5"
         "rodape  rodape" ;
     }
     
@@ -245,44 +247,89 @@ font-size: 24px;
     .container__imagem-mobile {
         width: 80%;
     }
-    #container__section1{ 
+
+    .container__section1, .section2, 
+    .section3, .section4, .section5 { 
+        
        color: aliceblue;
        flex-direction: column;    
      }
-     .container__texto{
+     .container__texto, .container__texto_02, .container__texto_03,
+       .container__texto_04, .container__texto_05{
         width: 100%;
         text-align: center;
         padding: 0;
+        
      }
+     .texto1, .texto2, .texto3, .texto4, .texto5{
+        font-size: 16px;
+    }
+    .titulo1, .paragrafo__02__titulo, .paragrafo__03__titulo{
+
+        font-size: 1.5em;
+    }
 .titulo1{
         padding-bottom: 0;
      }
 
-     .texto1{
+     .texto1, .texto2,.texto3{
         margin: 1em 0;
      }
 
      .paragrafo__imagem{
         width: 100%;
-        margin-bottom: 1em;
+        margin-bottom: 0;
         
      }
-     .section2{
+     .section2 {
         flex-direction: column-reverse;
+        padding-top: 1em;
      }
 
-     .container__texto_02{
+     .container__texto_02,.container__texto_03{
         width: 100%;
         text-align: center;
      }
 
      .paragrafo__02__titulo{
         padding: 0;
-       
      }
 
      #imagem2{
         width: 100%;
+     }
+
+     .section3
+     {
+        padding-top: 1em;      
+     }
+     .paragrafo__03__titulo{
+        padding-bottom: 0;
+     }
+
+     #imagem3{
+        width: 100%;
+        height: 300px;
+     }
+
+     .section4{
+        flex-direction: column-reverse;
+        padding-top: 0em;
+     }
+
+     .container__texto_04{
+        width: 100%;
+        text-align: center;
+        padding: 1em 0;
+        
+     }
+
+     .section5{
+        padding-top: 0;
+     }
+
+     .container__texto_05{
+        padding: 1em 0;
      }
 
      .rodape__container{
