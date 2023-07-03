@@ -63,7 +63,7 @@ body {
 .lista-nav__item{
     list-style-type:none;
     padding: 0.7em 0;
-    text-align: center;
+    text-align: justify;
 }
 
 .navegacao__right__titulo{
@@ -170,6 +170,13 @@ width: 100%;
 
 /* Resolução Notebook */
 @media screen and (min-width: 822px) and (max-width: 1600px) {
+
+
+    .lista-menu__link:hover{
+        border-radius: 8px;   
+         padding: 3px;
+    }
+    
 
 
     
