@@ -135,7 +135,21 @@ padding-top: 5em;
 
         .paragrafo_1{
             flex-direction: column;
+            padding: 0;
         }
+        .container__texto{
+            padding-left: 0;
+        }
+
+        .paragrafo_1_texto, .paragrafo_1_titulo,.paragrafo_2_titulo{
+            text-align: center;
+        }
+        .paragrafo_2_texto{
+            padding-bottom: 1em;
+            text-align: center;
+        }
+
+
     
 
     .conteudoLateral{
@@ -144,5 +158,9 @@ padding-top: 5em;
 
         .navegação{
             display: none;
+        }
+
+        .rodape__container{
+            padding-top: 2em ;
         }
     }

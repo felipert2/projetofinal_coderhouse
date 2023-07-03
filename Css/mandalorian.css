@@ -151,8 +151,13 @@ body {
         width: 100%;
     }
 
+    #titulo{
+        text-align: center;
+    }
+
     .paragrafo_1_texto{
         margin: 1em 0;
+        text-align: center;
     }
 
     #imagem1 {
@@ -172,6 +177,7 @@ body {
 
     .container__texto_02{
         width: 100%;
+        text-align: center;
     }
 
     .paragrafo_2_texto{

@@ -92,9 +92,7 @@ a#red:hover{
 
 }
 
-.container__label{
 
-}
 
     .links__header {
         display: none;
@@ -110,13 +108,13 @@ a#red:hover{
          position: absolute;
         z-index: 9999;
         top: 100%;
-        width: 40vw;
+        width: 80vw;
        
     }
 
     .lista-menu__item{
         background-color: aliceblue;
-        padding: .4em 0;
+        padding: 1.2em 0;
        text-align: center;
        list-style: none;
        background-image: url("../Assets/papel-de-parede-pixel-parede.jpg");
@@ -128,6 +126,7 @@ a#red:hover{
         text-decoration: none; 
         color: #F6DA33;
         font-weight: 800;
+        font-size: 25px;
         
     }
 
