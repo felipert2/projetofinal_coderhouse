@@ -129,3 +129,9 @@ color: #FFE81F;
 #texto__rodape{
     
 }
+
+#perspective_texto {
+  color: #fed34f !important;
+  transform: perspective(300px) rotateX(25deg);
+  text-align: justify;
+}
