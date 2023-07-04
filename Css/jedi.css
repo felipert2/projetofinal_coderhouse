@@ -130,7 +130,7 @@ color: #FFE81F;
     
 }
 
-#perspective_2_texto {
+ #perspective_2_titulo {
   color: #fed34f !important;
   transform: perspective(300px) rotateX(25deg);
   text-align: justify;
