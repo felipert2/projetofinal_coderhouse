@@ -38,6 +38,10 @@ body {
     display: flex;
     flex-direction: column;    
 }
+.imagens__left:hover{
+    transform: scale(1.6, 1.6);
+    border: 1px solid #F6DA33
+}
 
 .imagens__left{
     width: 100%;
@@ -79,7 +83,7 @@ padding: 0 1em 0 1em;
     justify-content: flex-start
    }
 #paragrafo__index__imagem{
-    margin: 80%
+    margin: 50%
     
    
 }
@@ -124,17 +128,4 @@ color: #FFE81F;
 
 #texto__rodape{
     
-}
-
-@media screen and (max-width: 821px)  {
-
-.grid{
-    background-color: rgba(0,0,0,0.6);
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    "cabecalho cabecalho"
-    "section1 section1"
-    "section2 section2"
-    "rodape  rodape" ;
-}
 }
