@@ -40,6 +40,19 @@ body {
     flex-direction: column;
 
 }
+#titulo_left {
+    margin-bottom: 1em;
+}
+
+.imagens__left {
+    width: 100%;
+
+}
+
+.imagens__left:hover {
+    transform: scale(1.6, 1.6);
+    border: 1px solid #F6DA33
+}
 
 #navegacao__right {
     grid-area: direito;
