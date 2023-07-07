@@ -13,20 +13,21 @@
 body {
           
     font-family: 'Inter', sans-serif;
-    background-image:url("../Assets/papel-de-parede-pixel-parede.jpg");
-    
+    background-image:url("../Assets/papel-de-parede-pixel-parede.jpg");    
     color: white;
     font-size: 16px;
 }
 
 .grid{
+
     margin: 0 5%;
     background-color: rgba(0,0,0,0.6);        
     display: grid;
-    grid-template-columns:  10% auto 10%;    
+    grid-template-columns:1fr 10fr 1fr;    
     grid-template-areas:
-    "cabecalho cabecalho cabecalho "
-    
+    "cabecalho cabecalho cabecalho "    
+    "carrosel carrossel carrossel"   
+    "carrosel carrossel carrossel"  
     "esquerdo section1  direito"
     "esquerdo section1  direito"
     "esquerdo section2  direito"
@@ -97,7 +98,6 @@ justify-content: space-between;
 margin: 0 5em;
 
 
-
 }
 
 #titulo{
@@ -137,9 +137,10 @@ color: yellow;
 
 .paragrafo__index__imagem2{
     width: 50%;
-    margin-right: 100px;
-  
+    margin-right: 100px;  
 }
+
+
 
 .imagem2{
 width: 100%;
@@ -151,6 +152,7 @@ width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1em;
 }
 
 #texto__rodape{
@@ -158,15 +160,20 @@ width: 100%;
 }
 
 
-
-.carrosel{
-    grid-area: carrossel;
-    display: none;
-}
-
     .carrosel2{
         display: none;
     }
+
+    #navegacao__left{
+        display: none;
+    }
+
+    #navegacao__right{
+        display: none;
+    }
+
+
+
 
 /* Resolução Notebook */
 @media screen and (min-width: 822px) and (max-width: 1600px) {
@@ -175,8 +182,7 @@ width: 100%;
     .lista-menu__link:hover{
         border-radius: 8px;   
          padding: 3px;
-    }
-    
+    }  
 
 
     
@@ -234,7 +240,7 @@ width: 100%;
 }
 
 /* resolução celular */
-@media screen and (max-width: 821px)  {
+@media screen and (max-width: 820px)  {
 
    body{
  margin: 0;
@@ -253,17 +259,7 @@ width: 100%;
         "rodape  rodape" ;
     }
 
-    .carrosel{
-        display: block;
-        grid-area: carrossel;
-        position: relative;
-    }
 
-    .carrosel2{
-            display: block;    
-            grid-area: carrossel2;
-            position: relative;
-        }
     
 
     .lista-menu__link{

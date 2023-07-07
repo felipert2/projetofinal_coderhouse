@@ -1,23 +1,36 @@
-
-
-
-
-
 .carrosel{
-    grid-area: carrossel;
-    display: block;
+    grid-area: carrossel;       
+   text-align: center;     
+   margin: 0 14em 1em 5em;
+}
+
+.swiper-slide img {    
+width: 100%;
+height: 500px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+.element.style{
+    margin-right: 0;
+}
+
+.carrossel__titulo{
+    display: none;
+}
+
+@media screen and (max-width: 821px) {
+.carrosel{
+    grid-area: carrossel;   
     position: relative;
     margin-bottom: 1em;
     z-index: 1;
    }
 
-   .carrosel2{
-    grid-area: carrossel2;
-    display: block;
-    position: relative;
-    margin-bottom: 2em;
-    
-   }
+
    .carrossel__titulo {  
 
     text-align: center;
@@ -26,13 +39,7 @@
     margin-bottom: 0.5em;  
 }
 
-.carrossel__titulo2 {
 
-    text-align: center;
-    text-transform: uppercase;   
-    font-weight: 800;
-    margin-bottom: 0.5em;  
-}
 
 .carrosel__nome__personagem{
     text-align: center;
@@ -61,3 +68,4 @@ background-color:  #F6DA33;
     margin-bottom: 22px;
 }
 
+}
